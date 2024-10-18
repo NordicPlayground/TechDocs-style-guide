@@ -1,42 +1,44 @@
-# Units of Measurement
+# Units of measurement
 
-We follow the International System of Units (SI). [Source: BIPM](https://www.bipm.org)
+We adhere to the International System of Units (SI) for consistency and accuracy in all technical documentation. [Source: BIPM](https://www.bipm.org)
 
-* Additional units that are not a part of SI are included on this page.
-* For converting non-SI units to SI units see Conversion Table.
-* For instructions for using the units see the following RMF pages: 31, 32, 38.
-* We distinguish between an uppercase K and a lowercase k.
-    * K=1024
-    * k=1000
+* Additional units not part of SI are also included on this page.
+* For conversion of non-SI units to SI units, refer to the Conversion Table.
+* Refer to RMF pages 31, 32, and 38 for specific instructions on unit usage.
+* The uppercase 'K' and lowercase 'k' are distinguished as follows:
+  * 'K' represents 1024.
+  * 'k' represents 1000.
 
-## Formatting
+## Formatting guidelines
 
-* Always a space between the value and the unit.
-    * Ex. 15 g, 15 mm
-* Exceptions:
-    * Temperature: When using the abbreviation for degrees Celsius or Fahrenheit, do not add a space before or after the degree sign (RMF p.38). Ex. 15°C.
-    * Percent sign: Ex. 50%
-    * Units do not need to be spelled out in running text; the abbreviation is accepted.
-* Bit and byte should always be spelled out; do not use 'b' and 'B'.
-* When the name of the unit is spelled out, a hyphen is used to separate the number from the unit. [Source: BIPM](https://www.bipm.org)
-    * Ex. a 16-bit address, a 35-millimeter film.
-* When the value of a quantity is used as an adjective, leave a space between the numerical value and unit symbol. [Source: BIPM](https://www.bipm.org)
-    * Ex. a 10 kΩ resistor, a 35 mm film.
+* Always include a space between the numeric value and the unit symbol.
+  * Example: 15 g, 15 mm
+* **Exceptions**:
+  * Temperature: When using abbreviations for degrees Celsius or Fahrenheit, do not add a space before or after the degree symbol (RMF p. 38). Example: 15°C.
+  * Percent sign: Example: 50%
+  * Units do not need to be spelled out in running text; the abbreviation is acceptable.
+* Always spell out 'bit' and 'byte'; do not abbreviate as 'b' or 'B'.
+* When spelling out the unit name, use a hyphen to separate the number from the unit. [Source: BIPM](https://www.bipm.org)
+  * Example: a 16-bit address, a 35-millimeter film.
+* When the value is used as an adjective, leave a space between the numerical value and the unit symbol. [Source: BIPM](https://www.bipm.org)
+  * Example: a 10 kΩ resistor, a 35 mm film.
 
-## Prefixes for Binary Powers (Source: Read Me First)
+## Prefixes for binary powers (Source: Read Me First)
 
-| Factor | Abbr.      | Unit      | Value        | Note                        |
-| ------ | ---------- | --------- | ------------ | --------------------------- |
-| 2^10   | Kb (Kib)   | kilobit   | 1024 b       | Prohibited                  |
-| 2^10   | KB (KiB)   | kilobyte  | 1024 B       | Prohibited (RMF pg. 381)    |
-| 2^20   | MB (MiB)   | megabyte  | 1048576 B    | Prohibited                  |
-| 2^30   | GB (GiB)   | gigabyte  | 1073741824 B | Prohibited (RMF pg. 376)    |
+| Factor | Abbreviation | Unit      | Value        | Note                        |
+| ------ | ------------ | --------- | ------------ | --------------------------- |
+| 2^10   | Kb (Kib)     | kilobit   | 1024 b       | Prohibited                  |
+| 2^10   | KB (KiB)     | kilobyte  | 1024 B       | Prohibited (RMF pg. 381)    |
+| 2^20   | MB (MiB)     | megabyte  | 1048576 B    | Prohibited                  |
+| 2^30   | GB (GiB)     | gigabyte  | 1073741824 B | Prohibited (RMF pg. 376)    |
 
-Base 2 is assumed in this field. Although these prefixes are not part of SI, they should be used in the field of information technology to avoid the incorrect usage of the SI prefixes.
+Base 2 is assumed for these prefixes. Although these prefixes are not part of SI, they are commonly used in information technology to avoid incorrect usage of SI prefixes.
 
-## SI Prefixes
+## SI prefixes
 
-The "SI prefixes refer strictly to powers of 10. **They should not be used to indicate powers of 2** (e.g., one kilobit represents 1000 bits, not 1024 bits). The IEC has adopted prefixes for binary powers in the international standard IEC 60027-2: 2005, third edition - *Letter symbols to be used in electrical technology – Part 2: Telecommunications and electronics.*
+SI prefixes represent powers of 10. **They should not be used to indicate powers of 2**. For binary powers, the IEC has adopted separate prefixes, as defined in IEC 60027-2: 2005, third edition - *Letter symbols to be used in electrical technology – Part 2: Telecommunications and electronics.*
+
+### Positive powers of 10
 
 | Factor | Name  | Symbol |
 | ------ | ----- | ------ |
@@ -49,7 +51,9 @@ The "SI prefixes refer strictly to powers of 10. **They should not be used to in
 | 10^15  | peta  | P      |
 | 10^18  | exa   | E      |
 | 10^21  | zetta | Z      |
-| 10^24  | yotta | T      |
+| 10^24  | yotta | Y      |
+
+### Negative powers of 10
 
 | Factor | Name  | Symbol |
 | ------ | ----- | ------ |
@@ -64,41 +68,40 @@ The "SI prefixes refer strictly to powers of 10. **They should not be used to in
 | 10^-21 | zepto | z      |
 | 10^-24 | yocto | y      |
 
-## SI Base Units
+## SI base units
 
-| Name      | Symbol | Quantity       | Notes     |
-| --------- | ------ | -------------- |           |
-| meter     | m      | length         |           |
-| kilogram  | kg     | mass           |           |
-| second    | s      | time           | 'sec' is also used (cf. RMF p. 393). |
-| ampere    | A      | electric current |         |
-| kelvin    | K      | thermodynamic temperature  |
-| mole      | mol    | amount of substance |      |
-| candela   | cd     | luminous intensity |       |
+| Name      | Symbol | Quantity       | Notes                           |
+| --------- | ------ | -------------- | ------------------------------- |
+| meter     | m      | length         |                                 |
+| kilogram  | kg     | mass           |                                 |
+| second    | s      | time           | 'sec' is also acceptable (RMF p. 393). |
+| ampere    | A      | electric current |                               |
+| kelvin    | K      | thermodynamic temperature  |                       |
+| mole      | mol    | amount of substance |                            |
+| candela   | cd     | luminous intensity |                             |
 
-## SI Coherent Derived Units
+## SI coherent derived units
 
-| Name              | Symbol | Quantity |
-| ----------------- | ------ | -------- |
-| square meter      | m²     | area     |
-| cubic meter       | m³     | volume   |
-| meter per second  | m/s    | speed, velocity |
-| meter per second squared | m/s² | acceleration |
-| reciprocal meter  | m⁻¹    | wavenumber |
+| Name              | Symbol | Quantity              |
+| ----------------- | ------ | --------------------- |
+| square meter      | m²     | area                  |
+| cubic meter       | m³     | volume                |
+| meter per second  | m/s    | speed, velocity       |
+| meter per second squared | m/s² | acceleration     |
+| reciprocal meter  | m⁻¹    | wavenumber            |
 | kilogram per cubic meter | kg/m³ | density, mass density |
-| kilogram per square meter | kg/m² | surface density |
-| cubic meter per kilogram | m³/kg | specific volume |
-| ampere per square meter | A/m² | current density |
+| kilogram per square meter | kg/m² | surface density  |
+| cubic meter per kilogram | m³/kg | specific volume   |
+| ampere per square meter | A/m² | current density    |
 | ampere per meter  | A/m    | magnetic field strength |
 | mole per cubic meter | mol/m³ | amount concentration |
-| kilogram per cubic meter | kg/m³ | mass concentration |
-| candela per square meter | cd/m² | luminance |
-| one               | 1      | refractive index |
+| candela per square meter | cd/m² | luminance         |
+| one               | 1      | refractive index      |
 | one               | 1      | relative permeability |
 
-## SI Coherent Derived Units with Special Names and Symbols
+## SI coherent derived units with special names and symbols
 
-| Name          | Symbol | Derived Quantity              |
+| Name          | Symbol | Derived quantity              |
 | ------------- | ------ | ----------------------------- |
 | radian        | rad    | plane angle                   |
 | steradian     | sr     | solid angle                   |
@@ -118,12 +121,12 @@ The "SI prefixes refer strictly to powers of 10. **They should not be used to in
 | degree Celsius | °C    | Celsius temperature           |
 | lumen         | lm     | luminous flux                 |
 | lux           | lx     | illuminance                   |
-| becquerel     | Bq     | activity referred to a radionuclide |
-| gray          | Gy     | absorbed dose, specific energy (imparted), kerma |
-| sievert       | Sv     | dose equivalent, ambient dose equivalent, personal dose equivalent |
+| becquerel     | Bq     | activity of a radionuclide    |
+| gray          | Gy     | absorbed dose, kerma         |
+| sievert       | Sv     | dose equivalent               |
 | katal         | kat    | catalytic activity            |
 
-## Non-SI Units Accepted for Use Within SI
+## Non-SI units accepted for use within SI
 
 | Name          | Symbol | Value in SI units          |
 | ------------- | ------ | -------------------------- |
@@ -137,11 +140,11 @@ The "SI prefixes refer strictly to powers of 10. **They should not be used to in
 | litre         | L or l | 1 L = 1 l = 1 dm³ = 10⁻³ m³ |
 | tonne         | t      | 1 t = 10³ kg               |
 
-## Other Non-SI Units
+## Other non-SI units
 
 | Quantity            | Name        | Symbol | Value in SI units           |
 | ------------------- | ----------- | ------ | --------------------------- |
-| pressure            | bar         | bar    | 1 bar = 0.1 MPa = 100 kPa = 105 Pa |
+| pressure            | bar         | bar    | 1 bar = 0.1 MPa = 100 kPa = 10⁵ Pa |
 | pressure            | millimeter of mercury | mmHg | 1 mmHg ≈ 133.322 Pa |
 | length              | ångström    | Å      | 1 Å = 0.1 nm = 100 pm = 10⁻¹⁰ m |
 | length              | nautical mile | M     | 1 M = 1852 m               |
@@ -151,17 +154,17 @@ The "SI prefixes refer strictly to powers of 10. **They should not be used to in
 | logarithmic ratio quantities | bel | B |                             |
 | logarithmic ratio quantities | decibel | dB |                         |
 
-## Other Units Used in Nordic Documentation
+## Other units used in Nordic documentation
 
-| Abbr. | Unit          | Value        |
-| ----- | ------------- | ------------ |
-| dBc   | decibels relative to the carrier See [Glossary](https://wiki.spaces/TECHDOC/pages/120292720) |  |
-| kHz   | kilohertz     | 1,000 Hz      |
-| MHz   | megahertz     | 1,000,000 Hz   |
-| GHz   | gigahertz     | 1,000,000,000 Hz|
-| kbps  | kilobits per second | 1000 b/s       |
-| kBps  | kilobytes per second | 1000 B/s       |
-| Mbps  | megabits per second | 1,000,000 b/s        |
-| MBps  | megabytes per second | 1,000,000 B/s        |
-| (k)sps| (kilo) samples per second  | 1000 samples/s |
-| ppm   | parts per million| |
+| Abbreviation | Unit          | Value                   |
+| ------------ | ------------- | ----------------------- |
+| dBc          | decibels relative to the carrier (See [Glossary](https://wiki.spaces/TECHDOC/pages/120292720)) | |
+| kHz          | kilohertz     | 1,000 Hz                |
+| MHz          | megahertz     | 1,000,000 Hz            |
+| GHz          | gigahertz     | 1,000,000,000 Hz        |
+| kbps         | kilobits per second | 1,000 b/s         |
+| kBps         | kilobytes per second | 1,000 B/s        |
+| Mbps         | megabits per second | 1,000,000 b/s     |
+| MBps         | megabytes per second | 1,000,000 B/s    |
+| (k)sps       | (kilo) samples per second | 1,000 samples/s |
+| ppm          | parts per million |                       |
