@@ -96,7 +96,52 @@ Use words that can be both nouns and verbs carefully—*file, post, mark, screen
 
 Write using the same, everyday words you use in conversation.
 
-* Use common contractions, such as *it’s, you’re, that's,* and *don’t,* to create a friendly, informal tone.
-* Don't mix contractions and their spelled-out equivalents in UI text. For example, don’t use *can’t* and *cannot* in the same UI.
-* Never form a contraction from a noun and a verb, such as *Microsoft’s developing a lot of new cloud services.*
-* Avoid ambiguous or awkward contractions, such as *there’d, it’ll,* and *they’d.*
+* Use common contractions, such as *it's, you're, that's,* and *don't,* to create a friendly, informal tone.
+* Don't mix contractions and their spelled-out equivalents in UI text. For example, don't use *can't* and *cannot* in the same UI.
+* Never form a contraction from a noun and a verb, such as *Nordic's developing a lot of new products.*
+* Avoid ambiguous or awkward contractions, such as *there'd, it'll,* and *they'd.*
+* Steer clear of overly casual forms like *gonna, wanna, gotta,* or archaic forms like *'twas, 'tis.*
+* Match subject-verb agreement when contracting: use *doesn't* with singular subjects, not *don't*.
+  * Incorrect: "The nRF Connect SDK don't support that protocol version."
+  * Correct: "The nRF Connect SDK doesn't support that protocol version."
+
+#### Match formality to content type
+
+Adjust your use of contractions based on the documentation context:
+
+* In urgent safety warnings, use complete words to convey seriousness.
+  * Warning format: "Do not flash firmware while the device operates under external power."
+  * Warning format: "Do not interrupt the secure boot process."
+* In error-prevention instructions, full words reinforce the importance.
+  * Example: "Do not exceed the maximum GPIO current rating of 15 mA."
+* In tutorial content and general guidance, contractions maintain friendliness.
+  * Example: "You can't enable both modes simultaneously."
+
+#### Clarity in apostrophe use
+
+Technical documentation requires precision with apostrophes that mark contractions versus possession:
+
+* The pattern *word's* can mean either "word is/has" or show ownership, leading to misreading.
+  * Unclear: "The application's optimized for low power consumption."
+  * Better: "The application is optimized for low power consumption."
+  * Or: "The application's power optimization reduces consumption." (clearly possessive)
+* When describing technical components, favor clarity over brevity.
+  * Unclear: "The UART's transmitting data at 115200 baud."
+  * Better: "The UART is transmitting data at 115200 baud."
+* Product names with possessive forms work fine when ownership is unambiguous.
+  * Clear: "The nRF52840's radio supports multiple protocols." (the radio belonging to nRF52840)
+
+#### Distinguish "it's" from "its"
+
+These two forms cause frequent confusion in technical writing:
+
+* Use *it's* only when you mean "it is" and the sentence maintains clarity.
+  * Example: "The build system detects dependencies; it's automatic."
+* Use *its* for possession without an apostrophe.
+  * Example: "The SoC manages its power states independently."
+* When describing technical operations, consider whether "it" references a clear subject.
+  * Vague: "After initialization, it's configured with default values."
+  * Specific: "After initialization, the device is configured with default values."
+* Rewrite sentences where either reading could make sense.
+  * Confusing: "The peripheral checks its status when it's polled by the CPU."
+  * Clearer: "The peripheral checks status when the CPU polls it."
