@@ -95,3 +95,64 @@ In a table header: "nRF52840 Development Kit (DK)" should be spelled out in a no
 ## Exceptions to avoiding acronyms
 
 In technical specifications or space-constrained elements like tables or diagrams, acronyms may be used more freely, but their definitions should be provided elsewhere in the document to ensure reader understanding.
+
+## Direct expression over abbreviated Latin
+
+Technical writing prioritizes immediate comprehension. Replace inherited Latin shortcuts with clear English equivalents:
+
+| Traditional shortcut | Direct expression | Context |
+| --- | --- | --- |
+| e.g. | for example | Introducing sample cases |
+| i.e. | specifically | Narrowing to exact meaning |
+| etc. | among others, and more | Indicating incomplete lists |
+| viz. | namely | Introducing precise identification |
+
+Benefits of direct expression:
+* Global readers process familiar English faster than Latin conventions
+* Automated translation systems handle plain language more reliably
+* Screen readers pronounce English words naturally versus stumbling over abbreviations
+
+## Navigation-aware term definitions
+
+Readers navigate technical documentation non-linearly. Accommodate different entry points:
+
+* **Multi-section documents**: Treat major sections as independent starting points. Define critical terms when they first appear in each major division.
+* **Standalone articles**: Each self-contained piece requires complete term definitions regardless of what other articles contain.
+* **Reference versus tutorial content**: Tutorials can assume sequential reading; reference material must define terms independently.
+
+Example pattern for modular content:
+* Article 1 introduces "Bluetooth Low Energy (BLE)" and uses BLE throughout
+* Article 2, read independently, also introduces "Bluetooth Low Energy (BLE)" at first mention
+* Readers jumping directly to Article 2 encounter no undefined terms
+
+Balance definition repetition against reader frustration—don't redefine terms multiple times within obviously connected sequential sections.
+
+## Preventing word-form confusion
+
+Some abbreviations create recognizable words that carry unintended meanings. Apply punctuation to prevent misreading:
+
+* Add periods when the abbreviation spells a different word.
+  * "no." prevents reading "number" as the word "no"
+  * "fig." clarifies "figure" versus "fig" the fruit
+* Technical initialisms rarely need punctuation—they don't form words.
+  * SPI, I2C, UART, PWM remain unpunctuated
+* Geographic abbreviations traditionally include periods in American English.
+  * "U.S." for United States
+
+Test: If readers might momentarily parse your abbreviation as a different word, add periods for distinction.
+
+## Density versus clarity optimization
+
+Space-constrained elements permit different abbreviation density than flowing text:
+
+**Condensed contexts** (tables, diagrams, UI labels):
+* Abbreviate liberally to fit constrained layouts
+* Example: Column headers use "Temp (°C)" instead of "Temperature (degrees Celsius)"
+* Provide definitions in table notes, legends, or nearby body text
+
+**Standard contexts** (paragraphs, procedures, explanations):
+* Spell out uncommon terms
+* Use established acronyms after definition
+* Prioritize reading flow over space efficiency
+
+**Decision framework**: If removing a single abbreviation breaks your layout, you're in condensed context. If it merely makes the layout longer, you're in standard context.

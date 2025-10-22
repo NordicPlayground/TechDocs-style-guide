@@ -168,3 +168,73 @@ SI prefixes represent powers of 10. **They should not be used to indicate powers
 | MBps         | megabytes per second | 1,000,000 B/s    |
 | (k)sps       | (kilo) samples per second | 1,000 samples/s |
 | ppm          | parts per million |                       |
+
+## Proper notation versus keyboard approximations
+
+Standard keyboards lack many technical symbols. Avoid substituting available characters for proper notation:
+
+**Inappropriate substitutions**:
+* Using hashtag/number sign (#) for pound-mass or pound-force
+* Using apostrophe (') for arcminute or foot
+* Using quotation mark (") for arcsecond or inch
+
+**Appropriate notation**:
+* Spell out: pound, foot, inch when proper symbols aren't available
+* Use abbreviations: lb, ft, in when space constraints exist
+* Insert proper symbols: ′ for arcminute, ″ for arcsecond when documenting angular measurements
+
+Modern documentation tools support Unicode. Configure your environment to access proper technical symbols rather than approximating with keyboard substitutes.
+
+## Measurement system bridging
+
+Technical audiences span geographies with different measurement traditions:
+
+**Strategy selection**:
+* **SI-primary contexts** (circuit design, electrical specifications): Use SI units exclusively. Don't add imperial conversions.
+  * Example: "Supply voltage: 3.3 V" (no imperial equivalent needed)
+* **Physical dimension contexts** (enclosure size, cable length): Include both systems when either might aid understanding.
+  * Example: "Antenna length: 65 mm (2.56 in)"
+* **Mixed-audience contexts**: Lead with SI, follow with imperial in parentheses.
+
+**Conversion placement**:
+* Keep conversions together on first mention: "Operating range: 15 m (49 ft)"
+* Don't repeat conversions throughout—establish the relationship once per context
+
+The goal isn't mathematical precision in conversions but helping readers visualize scale regardless of their familiar system.
+
+## Temporal interval formatting
+
+Express time durations consistently across your documentation:
+
+**System displays and logs**:
+* Use colon-separated notation for machine-generated timestamps
+* Example: "Process duration: 02:15:33"
+* Define component meaning: first pair = hours, second = minutes, third = seconds
+
+**Human-readable text**:
+* Spell out time units in explanatory content
+* Example: "Compilation typically requires 3 to 5 minutes"
+* Use natural language rather than numeric codes
+
+**API responses and data formats**:
+* Follow ISO 8601 duration format: PT3H15M22S
+* Document your format choice in API specifications
+
+Consistency within output types matters more than consistency across all contexts—match reader expectations for each format.
+
+## Industry convention conflicts
+
+Electrical component ratings sometimes diverge from standard SI spacing conventions:
+
+**Standard SI practice**: Include space between value and unit
+* Correct: 5 V, 100 mA, 4.7 kΩ
+
+**Component marking practices**: Manufacturers often omit spacing on physical labels
+* Common on hardware: "12V", "500mA", "3V3" (meaning 3.3V)
+
+**Documentation approach**:
+* Follow SI standards in technical writing: use spacing
+* When documenting physical markings exactly as they appear, note the deviation
+* Example: "Locate the component marked '5V' on the board (5 V supply rail)"
+
+Consistency within your documentation takes priority—pick SI-compliant spacing and maintain it throughout, even when describing non-compliant labels.
