@@ -13,14 +13,14 @@ Use a comma in the following situations.
 | **To join independent clauses with a conjunction, such as *and, or, but,* or *so.***</br> | Select **Options**, and then select **Enable fast saves**. |
 | **In a series of two or more adjectives that precede a noun**</br>| Adjust the innovative, built-in Kickstand and Type Cover. |
 | **In dates** | See the product reviews in the February 4, 2015, issue of the *New York Times.* |
-| **To separate a subordinate clause from the main clause** | If you have not deleted a marked file, you can restore it. |
-| **After a dependent adverbial clause or prepositional phrase that starts a sentence** |In such cases, hosts assume that destinations are not accessible |
-| **To separate an introductory modifier from the rest of the sentence** |Confident that she had saved her work, she logged out |
-| **With nonrestrictive clauses or phrases**</br> Use a comma to set off nonrestrictive clauses or phrases |The mail icon, which looks like a mailbox, flashes |
-| **To separate short parenthetic text.** |The software, with its simple interface, decreases input time by 50 percent |
-| **In addresses** | Write to Plirg Systems, North Bay Village, Florida. |
-| **With appositives** | The monitor, hardware that looks like a television set, has only one function. |
-| **With “for example” and similar expressions** | Type the date in MMDDYY format, for example, 110709. |
+| **To separate a subordinate clause from the main clause** | If the firmware signature fails verification, the bootloader halts execution. |
+| **After a dependent adverbial clause or prepositional phrase that starts a sentence** | During power-on reset, the MCU initializes all peripheral clocks. |
+| **To separate an introductory modifier from the rest of the sentence** | Confident the build completed successfully, the developer flashed the device. |
+| **With nonrestrictive clauses or phrases**</br> Use a comma to set off nonrestrictive clauses or phrases | The status LED, which indicates connection state, blinks during pairing. |
+| **To separate short parenthetic text.** | The nRF Connect SDK, with its integrated toolchain, reduces development time significantly. |
+| **In addresses** | Contact Nordic Semiconductor, Trondheim, Norway for technical support. |
+| **With appositives** | The SoC, a chip integrating processor and radio, handles all wireless communication. |
+| **With "for example" and similar expressions** | Specify timestamps in ISO 8601 format, for example, 2024-03-15T10:30:00Z. |
 
 ## Don't use a comma
 
