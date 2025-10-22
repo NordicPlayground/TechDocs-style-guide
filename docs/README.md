@@ -1,26 +1,26 @@
 # TechDocs Style Guide
 
-This style guide is forked from the [Microsoft Style Guide](https://github.com/MicrosoftDocs/microsoft-style-guide/tree/main/styleguide). We will gradually be updating and adapting the content to suit the needs of Nordic.
+This style guide is forked from the [Microsoft Style Guide](https://github.com/MicrosoftDocs/microsoft-style-guide/tree/main/styleguide). This repo will gradually diverge from upstream as needed.
 
-The purpose of this style guide is to be a resource to train internal AI models as well as have an updated digital style guide for easier reference and CI check integration.
+The purpose of this style guide is to have an updated digital style guide for easier reference and future automation integration.
 
 ## MkDocs framework
 
 We use a combination of the [MkDocs framework](https://www.mkdocs.org) with the [Material](https://squidfunk.github.io/mkdocs-material) theme to build the static documentation site.
 
-## Best Way to View the Style Guide Without Causing Conflicts with NCS Requirements
+## How to view the style guide without causing conflicts with NCS requirements
 
-### Step 1: Create a Folder for the Virtual Environment
-Create a folder to contain the Virtual Environment.
+### Step 1: Create a folder for the virtual environment
+Create a folder to contain the virtual environment.
 
-### Step 2: Create a Python Virtual Environment
-Run the following command to create a Virtual Environment in the folder:
+### Step 2: Create a python virtual environment
+Run the following command to create a virtual environment in the folder:
 
 ```bash
 python -m venv NewVenvName
 ```
 
-### Step 3: Activate the Virtual Environment
+### Step 3: Activate the virtual environment
 - **On Windows:**
   ```bash
   NewVenvName\Scripts\activate
@@ -30,14 +30,14 @@ python -m venv NewVenvName
   source NewVenvName/bin/activate
   ```
 
-### Step 4: Set up the framework inside the Python Virtual Environment
+### Step 4: Set up the framework inside the python virtual environment
 You will need `pip` to install both MkDocs and Material.
 
 1. Run `pip install mkdocs` to install MkDocs on your machine.
 1. Run `pip install mkdocs-material` to install the Material theme.
 2. Run `pip install mkdocs-macros-plugin` to install the Macros plugin.
 
-### Step 5: Deactivate the Virtual Environment
+### Step 5: Deactivate the virtual environment
 To deactivate the Virtual Environment, run:
 
 ```bash
@@ -50,7 +50,7 @@ exit
 
 ---
 
-## Step 6: Clone the Repository
+## Step 6: Clone the repository
 1. Create a folder for cloning the repository in a location of your choice.
 2. Navigate to the folder and run:
 
