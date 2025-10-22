@@ -56,3 +56,78 @@ Examples:
 * Meet with up to 250 people.
 * All they need is a phone or internet connection.
 * The company upgraded its cloud storage solution to Microsoft Azure.
+
+## Pronoun reference distance
+
+Pronouns create links between sentences. The further apart a pronoun sits from what it represents, the harder readers work to maintain understanding.
+
+### Test your pronoun links
+
+Apply this test when editing: Can you identify what a pronoun represents within three seconds? If you hesitate, your readers will too.
+
+Problem indicators:
+* Multiple nouns appear between the pronoun and its reference
+* The pronoun starts a new paragraph or section
+* Two or more items could logically fit as the pronoun's reference
+* The sentence remains unclear even after rereading the previous sentence
+
+### Strengthen weak pronoun links
+
+**Technique 1: Repeat the specific term**
+
+Replace the pronoun with the exact technical term, even if repetition seems awkward:
+
+* Weak link: "Configure the UART baud rate before enabling DMA transfers. It must match the peripheral clock frequency."
+* Strong: "Configure the UART baud rate before enabling DMA transfers. The baud rate must match the peripheral clock frequency."
+
+**Technique 2: Add identifying context**
+
+Keep the pronoun but add qualifying words that narrow the reference:
+
+* Weak link: "The application allocates memory for packet buffers and protocol headers. These consume approximately 4 KB."
+* Strong: "The application allocates memory for packet buffers and protocol headers. These allocations consume approximately 4 KB."
+
+**Technique 3: Restructure for proximity**
+
+Move the pronoun closer to what it represents, or combine sentences:
+
+* Separated: "Power consumption increases when multiple radio protocols operate simultaneously. The nRF5340 manages this through dynamic switching. It reduces current draw during idle periods."
+* Proximate: "The nRF5340 manages power consumption when multiple radio protocols operate simultaneously. The SoC reduces current draw during idle periods through dynamic switching."
+
+### Paragraph and section boundaries
+
+Pronouns rarely work well across these boundaries. Reintroduce the specific term:
+
+* Across boundary: "The I2C controller supports clock stretching for slow peripherals.\n\n**Configuration steps**\n\nIt requires specific register settings."
+* Reintroduced: "The I2C controller supports clock stretching for slow peripherals.\n\n**Configuration steps**\n\nThe I2C controller requires specific register settings."
+
+### Demonstrative pronouns in technical contexts
+
+Words like "this," "that," "these," and "those" work as pointers but need clear targets in technical writing:
+
+* Pointer without target: "Enable interrupt handling and configure priority levels. This improves response time."
+  - Question: What improves response time? Enabling? Configuring? Both?
+* Pointer with target: "Enable interrupt handling and configure priority levels. This configuration improves response time."
+
+Common additions that clarify demonstrative pronouns:
+* this → this setting, this approach, this configuration
+* that → that value, that register, that specification
+* these → these parameters, these functions, these requirements
+* those → those addresses, those peripherals, those constraints
+
+### Ownership pronouns in hardware descriptions
+
+Possessive pronouns (its, their) become ambiguous when describing interconnected hardware:
+
+* Ambiguous ownership: "Connect the debugger to the target board through the SWD interface. Check its voltage level before powering on."
+  - Whose voltage? Debugger's? Board's? Interface's?
+* Clear ownership: "Connect the debugger to the target board through the SWD interface. Check the target board's voltage level before powering on."
+
+### Technical review checklist
+
+During editing, mark each pronoun and verify:
+1. Does one specific term fit this pronoun?
+2. Could a different term also fit logically?
+3. Would a new reader identify the reference immediately?
+
+If you answer "no" to question 1 or "yes" to question 2, replace the pronoun with its specific reference.
