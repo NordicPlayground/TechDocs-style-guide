@@ -25,4 +25,61 @@ Use a colon in the following situations.
 | **When referring to screen elements in text**</br> Even if the onscreen label includes a colon. | The Printers: menu | The Printers menu |
 | **To introduce headings** | (H2)Preinstallation Checklist</br>Before you begin the installation, verify several things about your system**:**</br>(H3)Check the Configuration | (H2)Preinstallation Checklist</br>Before you begin the installation, verify several things about your system**.**</br>(H3)Check the Configuration |
 | **At the end of a procedure heading** | To Configure Your System**:** | To Configure Your System |
-| **In a list that is introduced by “includes” or “are” within a sentence** | The colors used in four-color printing are**:** cyan, magenta, yellow, and black. | The colors used in four-color printing are cyan, magenta, yellow, and black. |
+| **In a list that is introduced by "includes" or "are" within a sentence** | The colors used in four-color printing are**:** cyan, magenta, yellow, and black. | The colors used in four-color printing are cyan, magenta, yellow, and black. |
+
+## Common colon misuses
+
+Common colon misuse patterns include:
+
+### Premature list termination
+
+**Error pattern**: Placing a colon after "are," "include," or "such as" creates grammatical redundancy.
+
+| Problematic | Corrected |
+|-------------|-----------|
+| The supported protocols are: BLE, Thread, and Zigbee. | The supported protocols are BLE, Thread, and Zigbee. |
+| Features include: DMA, encryption, and power management. | Features include DMA, encryption, and power management. |
+
+**Why this fails**: The verb already connects the subject to what follows. Adding a colon duplicates this function.
+
+### Heading introduction interference
+
+**Error pattern**: Inserting colons between body text and the next heading fragments the document hierarchy.
+
+| Problematic | Corrected |
+|-------------|-----------|
+| Configure these settings:</br></br>**GPIO Configuration** | Configure these settings.</br></br>**GPIO Configuration** |
+
+**Why this fails**: Headings are structural elements, not list items. Colons signal forthcoming content at the same hierarchical level, not a new section.
+
+### UI element colon echo
+
+**Error pattern**: Copying colons from on-screen labels into documentation prose.
+
+| Screen shows | Don't write | Write instead |
+|--------------|-------------|---------------|
+| **Voltage:** | In the Voltage: field | In the Voltage field |
+| **Mode:** | Select a Mode: option | Select a Mode option |
+
+**Why this fails**: Screen labels follow different conventions than flowing text. Strip formatting artifacts when referencing UI elements.
+
+### Figure and table announcement
+
+**Error pattern**: Treating figure/table references as list introductions.
+
+| Problematic | Corrected |
+|-------------|-----------|
+| See the following diagram: Figure 3 | See Figure 3 |
+| The data appears in: Table 2-1 | The data appears in Table 2-1 |
+
+**Why this fails**: Cross-references stand as complete statements. The figure/table number isn't a list item requiring introduction.
+
+### Fragment completion dependency
+
+**Error pattern**: Creating sentence fragments that require list content to complete grammatical structure.
+
+| Problematic | Better approach |
+|-------------|-----------------|
+| The initialization steps are:</br>1. Enable clock</br>2. Configure pins | Initialize the peripheral:</br>1. Enable clock</br>2. Configure pins |
+
+**Why this fails**: If you remove the list, "The initialization steps are:" leaves an incomplete thought. The introduction should form a complete grammatical unit before the list begins.
