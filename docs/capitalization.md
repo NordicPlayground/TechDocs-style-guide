@@ -13,6 +13,17 @@ Use sentence-style capitalization for most titles and headings. This means capit
   * Example: CPU.
 * Avoid using plural forms of abbreviations and acronyms unless strictly necessary.
 
+## Identifying proper nouns
+
+When uncertain whether to capitalize a term, determine if it represents a specific named entity or a general category:
+
+* A general category remains lowercase and typically includes words like "a," "an," "the," "some," or "any" before it.
+  * Example: "Connect the device to a debugger" (any debugger from the category).
+* A specific named product or entity uses capitalization and typically appears without preceding articles.
+  * Example: "Launch nRF Connect for Desktop" (the specific application).
+
+Apply this test when documenting software tools, hardware components, or development environments.
+
 ### Exceptions
 
 | Situation | Examples |
@@ -32,6 +43,40 @@ Use sentence-style capitalization for most titles and headings. This means capit
   * Example: See figure 3 for details.
 * Use sentence-style capitalization for headers in appendices, indexes, and glossaries.
   * Example: "appendix A: hardware reference" or "glossary of terms."
+
+## Structural document references
+
+When referring to numbered or lettered document elements, capitalize the descriptor term:
+
+* Capitalize organizational terms followed by identifiers.
+  * Example: "Chapter 4 covers Bluetooth protocols."
+  * Example: "Review the details in Section 2.3."
+  * Example: "Appendix B contains troubleshooting steps."
+  * Example: "Table 7 shows power consumption data."
+  * Example: "Example 3 demonstrates pin configuration."
+* When multiple steps are referenced together, keep the plural form lowercase.
+  * Example: "Follow steps 2 through 6 to complete initialization."
+* Use lowercase when no specific identifier follows.
+  * Example: "The next section explains memory allocation."
+  * Example: "Refer to the table below for specifications."
+
+## Page number formatting
+
+When directing readers to specific pages in printed or PDF documentation, keep the word "page" lowercase:
+
+* Use lowercase for page number references.
+  * Example: "Additional diagrams appear on page 87."
+  * Example: "See page 12 for installation prerequisites."
+
+## Illustration labels and callouts
+
+For text annotations within diagrams, figures, and illustrations:
+
+* Capitalize only the first word and any proper nouns in callout text.
+  * Example: A diagram showing "Antenna connection" and "nRF9160 SiP."
+* Keep technical abbreviations capitalized according to their standard form.
+  * Example: Labels reading "UART interface" and "GPIO pins."
+* Maintain consistency with how these terms appear in body text.
 
 ## Headings with symbols or special characters
 
@@ -57,6 +102,55 @@ Use sentence-style capitalization for most titles and headings. This means capit
   * Example: Nordic-certified technician.
 * Maintain the original capitalization for brand names, such as CamelCase or internal capitalization, even when used within a sentence or heading.
   * Example: "nRF Connect SDK should retain CamelCase."
+
+## Input device controls
+
+Capitalize names of physical keys, buttons, and hardware controls:
+
+* Treat individual key names as proper nouns.
+  * Example: "Press the Return key to confirm."
+  * Example: "Hold the Shift key while clicking."
+* Capitalize combined keystrokes using the plus sign or hyphen.
+  * Example: "Use Alt+Tab to switch windows."
+  * Example: "Enter Ctrl-C to terminate the process."
+* Apply the same principle to hardware buttons and switches on development boards.
+  * Example: "Press the Reset button on the nRF52840 DK."
+  * Example: "Toggle the Power switch to enable the circuit."
+
+## Technical notation
+
+Follow these capitalization rules for specialized technical notation:
+
+* Keep "x" lowercase in hexadecimal addresses and memory values.
+  * Example: "The register address is 0x4000."
+  * Example: "Write 0xFF to clear the buffer."
+* Maintain lowercase "x" in architecture designations.
+  * Example: "Compatible with x86 and x64 architectures."
+* Use lowercase "x" when expressing physical dimensions.
+  * Example: "The PCB measures 40x30 millimeters."
+* Keep "p" lowercase in pin designations that use this convention.
+  * Example: "Connect to p0.13 for GPIO control."
+
+## Variables and placeholders
+
+Maintain lowercase formatting for placeholders and variables that users replace with actual values:
+
+* Keep placeholder text lowercase unless it contains terms normally capitalized.
+  * Example: "Enter your <username> in the login field."
+  * Example: "Replace <device_id> with your actual device identifier."
+  * Example: "Specify the <BoardName> parameter" (when "Name" requires capitalization).
+* Apply this rule to command syntax, configuration examples, and API documentation.
+  * Example: "Run `nrfutil device list --serial <serial_number>`."
+
+## Physical component labels
+
+Capitalize labels on physical hardware components when documenting their operation:
+
+* Treat physical labels and markings as proper nouns.
+  * Example: "Locate the LED labeled Status on the development kit."
+  * Example: "Connect the cable to the Debug port."
+  * Example: "The Mode switch controls operating states."
+* Match the exact capitalization shown on the physical device when possible.
 
 ## Cross-references and UI labels
 
@@ -110,6 +204,17 @@ Avoid the following forms of unnecessary capitalization:
 * Do not use all lowercase as a stylistic choice.
 * Do not use internal capitalization (for example, *AutoScale* or *e-Book*) unless it is part of a brand name.
 * Do not capitalize the spelled-out form of an acronym unless it is a proper noun.
+
+### Emphasis methods
+
+Never use capitalization solely to emphasize words or create visual impact:
+
+* Use italic formatting for emphasis instead of capitals.
+  * Correct: "The firmware *must* be updated before proceeding."
+  * Incorrect: "The firmware MUST be updated before proceeding."
+* Reserve all-caps only for established acronyms and constants.
+  * Example: "The API returns an HTTP status code."
+  * Example: "Define MAX_BUFFER_SIZE in your configuration."
 
 ### Exceptions
 
