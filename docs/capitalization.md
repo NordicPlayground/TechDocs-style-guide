@@ -68,6 +68,15 @@ When directing readers to specific pages in printed or PDF documentation, keep t
   * Example: "Additional diagrams appear on page 87."
   * Example: "See page 12 for installation prerequisites."
 
+## Multi-volume documentation
+
+When documentation is divided into major parts, capitalize part designations:
+
+* Treat part identifiers as proper organizational elements.
+  * Example: "Part II addresses wireless protocols."
+  * Example: "Hardware specifications appear in Part I."
+* Use Roman numerals or Arabic numbers depending on your documentation structure.
+
 ## Illustration labels and callouts
 
 For text annotations within diagrams, figures, and illustrations:

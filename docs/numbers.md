@@ -17,6 +17,7 @@ Use a numeral instead of a word in the following situations.
 | A number the customer is directed to enter. | Enter *5*. |
 | A round number of 1 million or more. | 7 million |
 | Coordinates of tables or worksheets and numbered sections of documents. | row 3, column 4 <br /> Chapter 10 <br /> Step 1 |
+| When citing industry specifications or protocol versions that use specific numbering. | Thread 1.3 <br /> Zigbee 3.0 <br /> USB 2.0 protocol |
 | When talking about dimensions like tile sizes, screen resolutions, and paper sizes, use a lowercase "x" with no spaces between the numbers. | 4x4 tile <br /> 8.5"x11" paper <br /> 1280x1024 pixels |
 | Percentages, no matter how small, use a numeral plus *percent*. Use *percentage* when you don't specify a quantity. | At least 50 percent of your system resources should be available.|
 | When referencing monetary values, always use numerals and include the currency symbol. | $5,000 <br /> €10 |
@@ -71,23 +72,56 @@ Use a word instead of a numeral in the following situations.
 | --- | --- |
 | Hyphenate compound numbers when they are spelled out. | twenty-five fonts <br /> the twenty-first day |
 
+## Technical specifications with numeric values
+
+When numbers combine with units to describe hardware specifications, apply consistent formatting:
+
+| Situation | Example |
+| --- | --- |
+| Hyphenate numeric descriptors that precede what they modify. | 64-bit architecture <br /> 1.8-V supply rail <br /> 128-KB SRAM |
+| Write without hyphens when the specification follows what it describes. | The architecture uses 64 bits. <br /> Supply voltage is 1.8 V. <br /> SRAM capacity: 128 KB. |
+| For frequency specifications, maintain hyphenation when modifying. | 2.4-GHz transceiver <br /> 32-MHz crystal |
+| Use hyphens with numeric ranges that modify nouns. | 1.7-V to 3.6-V operating range <br /> 10-bit to 12-bit converter |
+
 ## Fractions and decimals
 
-### Use fractions and decimals
+### Positioning fractional components
+
+When expressing fractional measurements, format depends on the precision required and space available:
 
 | Situation | Example |
 | --- | --- |
-| For decimal fractions less than one, add a zero before the decimal point. | 0.5 cm <br /> enter 0.75 |
-| Hyphenate spelled-out fractions. | two-thirds completed <br /> three sixty-fourths |
-| Use decimals in scientific contexts or when consistency is needed in a table. | 0.75 cm |
-| Use plural forms for quantities less than one. | 0.5 inches |
-| For financial contexts, always use decimals rather than fractions. | $0.75 |
+| Place fractional values adjacent to whole numbers without punctuation. | 2¼ turns <br /> 5½ cycles |
+| When the combined value describes a component, connect with a hyphen to the unit. | 1½-turn potentiometer <br /> 3¾-inch standoff |
+| Use decimal notation for voltage, current, and resistance values. | 3.3 V <br /> 0.25 A <br /> 4.7 kΩ |
+| Add a leading zero before decimal points for values under one. | 0.5 cm <br /> 0.33 duty cycle |
 
-### Don't use fractions and decimals
+### Choosing between fractional and decimal formats
+
+Select the format that matches your technical context:
 
 | Situation | Example |
 | --- | --- |
-| Don't use numerals separated by a slash to express fractions unless used in equations in running text. | ½ + ½ = 1 |
+| Match connector and component industry naming conventions. | 3.5-mm headphone jack <br /> 2.54-mm pin spacing |
+| Use decimals for electrical characteristics and measurements. | 1.25-V reference <br /> 0.1-µF capacitor |
+| Express angular measurements in decimal degrees. | 45.5° phase shift <br /> 90.25° rotation |
+| Spell out fractional proportions in descriptive text. | approximately one-third capacity <br /> reduced by one-half |
+
+### Symbol versus written form
+
+| Situation | Example |
+| --- | --- |
+| Use fraction symbols (½, ¼, ¾) for physical measurements and mechanical specifications. | ¼-wave antenna <br /> ¾-inch mounting hole |
+| Write fractions as words when discussing conceptual portions. | The bootloader occupies roughly one-quarter of flash memory. |
+| In constrained spaces like tables, prefer symbols over words. | ½ <br /> ⅛ <br /> ⅔ |
+| Hyphenate spelled-out fractions that form compound terms. | two-thirds majority <br /> three-eighths wavelength |
+
+### Plural forms with fractional quantities
+
+| Situation | Example |
+| --- | --- |
+| Use plural units even when the value is less than one. | 0.5 meters <br /> 0.75 inches <br /> 0.25 milliseconds |
+| Financial decimals follow currency formatting rules. | $0.50 <br /> €0.75 |
 
 ## Ordinal numbers
 
