@@ -39,6 +39,8 @@ Use an en dash in the following situations.
 | **To indicate negative numbers** | –79 |
 | **One element of the modifier is an open compound** | Windows 10–compatible products |
 | **Two or more of the elements are made up of hyphenated compounds.** | dialog box–type options |
+| **List term separators**</br> In bulleted lists, separate term from definition with spaces around en dash. | • DMA mode – Transfers data without CPU intervention</br>• Polling mode – CPU actively checks status registers</br>• Interrupt mode – Hardware signals completion events |
+| **Reference numbering**</br> When manually typing figure, table, or example numbers, use en dash between chapter and item number. | Figure 3–5 shows GPIO configuration</br>Table 2–1 lists power states</br>Example 4–3 demonstrates SPI initialization |
 
 ### Don't use an en dash
 
@@ -116,3 +118,16 @@ Compound modifiers in *Read Me First*, p. 47 (usually compound modifiers hyphena
 | The program is live on air today. | on-air data-rate |  |
 | The document is up to date. | an up-to-date document |  |
 |  | a low-power MCU |  |
+
+## Nonbreaking hyphens
+
+Some publishing tools treat hyphens as line-break opportunities. Certain hyphenated terms should remain together on one line:
+
+* Key combinations must not break across lines.
+  * Example: Ctrl-Shift-Q, Alt-Tab
+* Product identifiers should stay intact.
+  * Example: nRF52840-DK, nRF9160-SICA
+* Technical compound terms where separation creates confusion.
+  * Example: low-power mode, real-time system
+
+Consult your documentation toolchain for implementing nonbreaking hyphens or use non-breaking spaces around critical hyphenated terms.

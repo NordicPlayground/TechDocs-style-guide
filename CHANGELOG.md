@@ -74,6 +74,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ##### Colons (`colons.md`)
 - Added "Common colon misuses" section with error-pattern teaching
 
+##### Dashes and hyphens (`dashes-and-hyphens.md`)
+- Added en dash usage for list term separators
+- Added en dash usage for reference numbering (Figure, Table, Example)
+- Added nonbreaking hyphens section with guidance for key combinations, product identifiers, and technical compounds
+
 ### Changed
 
 #### Punctuation: commas (`commas.md`)
