@@ -79,6 +79,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Added en dash usage for reference numbering (Figure, Table, Example)
 - Added nonbreaking hyphens section with guidance for key combinations, product identifiers, and technical compounds
 
+##### Periods (`periods.md`)
+- Added technical terminology guidance (periods as "dots")
+- Added current directory notation for Unix-like systems
+
+##### Quotation marks (`quotation-marks.md`)
+- Added "Don't use quotation marks" section for commands and technical elements
+- Added guidance to use code formatting instead of quotation marks for literal text
+
+##### Semicolons (`semicolons.md`)
+- Added conjunctive adverb usage guidance
+- Added "Rewrite complex semicolon lists" section with conversion examples
+
+##### Slashes (`slashes.md`)
+- Added "Why slashes create translation challenges" section explaining multiple meanings
+
 ### Changed
 
 #### Punctuation: commas (`commas.md`)
