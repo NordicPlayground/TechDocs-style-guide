@@ -26,8 +26,63 @@ Focus on what matters to customers,** and choose words they'd use themselves. In
 
 Use parallel sentence structure for all headings at the same level. For example, use noun phrases for first-level headings, verb phrases for second-level headings, and infinitive phrases for headings in instructions.
 
-* E.g. **Prepare headings** (First-level heading)  
+* E.g. **Prepare headings** (First-level heading)
  *To create a heading...* (First sentence or second-level heading)
+
+### Repeat the heading subject in following text
+
+Don't start the text after a heading with a pronoun. Repeat the main subject for clarity:
+
+| Weak opening | Strong opening |
+|--------------|----------------|
+| **GPIO Configuration**</br>These allow flexible pin assignment. | **GPIO Configuration**</br>GPIO pins allow flexible pin assignment. |
+| **DMA Transfers**</br>This method reduces CPU overhead. | **DMA Transfers**</br>DMA transfers reduce CPU overhead. |
+
+Repetition reinforces the topic and helps readers who scan headings independently of body text.
+
+### Provide context for technical elements
+
+Include descriptive nouns when headings reference commands, files, or code elements:
+
+| Lacks context | Has context |
+|---------------|-------------|
+| `nrfutil` | The `nrfutil` command |
+| `config.json` | The `config.json` configuration file |
+| `main.c` | The `main.c` source file |
+
+Descriptive nouns clarify what type of element you're discussing.
+
+### Avoid acronym definitions in headings
+
+Use either the full term or the acronym in headings, not both:
+
+| Cluttered | Clean |
+|-----------|-------|
+| Bluetooth Low Energy (BLE) Configuration | Bluetooth Low Energy configuration |
+| Using the UART (Universal Asynchronous Receiver/Transmitter) | Using the UART |
+
+Define the acronym in the body text immediately following the heading.
+
+### Limit heading depth
+
+Use a maximum of four heading levels. Deeper nesting indicates organizational problems:
+
+* **Level 1**: Major chapter or topic divisions
+* **Level 2**: Primary subtopics
+* **Level 3**: Detailed subsections
+* **Level 4**: Specific procedures or concepts
+
+If you need a fifth level, restructure your content. Break the section into multiple topics or consolidate related information.
+
+### Use at least two headings per level
+
+Avoid single subheadings under a parent heading:
+
+| Single subheading | Multiple subheadings |
+|-------------------|---------------------|
+| **Power Management**</br>   • Low-power modes | **Power Management**</br>   • Low-power modes</br>   • Active power optimization |
+
+A single subheading often indicates the content could be integrated into the parent section or needs further subdivision.
 
 ### Avoid most punctuation
 

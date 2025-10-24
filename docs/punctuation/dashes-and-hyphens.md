@@ -126,7 +126,6 @@ Some publishing tools treat hyphens as line-break opportunities. Certain hyphena
 * Key combinations must not break across lines.
   * Example: Ctrl-Shift-Q, Alt-Tab
 * Product identifiers should stay intact.
-  * Example: nRF52840-DK, nRF9160-SICA
 * Technical compound terms where separation creates confusion.
   * Example: low-power mode, real-time system
 
