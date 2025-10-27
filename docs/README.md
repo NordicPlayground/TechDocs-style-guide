@@ -85,6 +85,9 @@ It is located in the /tools/tiny_docs_mcp.py python script.
 
 It requires mcp and fastmcp python dependencies (see the previous chapter).
 
+
+### Use the MCP server with Cursor
+
 To configure Cursor for using the MCP server, add the following to your mcp.json:
 
 ```
@@ -101,5 +104,12 @@ To configure Cursor for using the MCP server, add the following to your mcp.json
   }
 ```
 
+This mcp.json syntax as the basis for either your workspace-wide or system-wide mcp server configuration.
+You can also add the same configuration going to `File/preferences/cursor settings/Tools and MCP`
+
 After that, restart cursor.
 
+
+### Use the MCP server with VS Code
+
+Work in progress.

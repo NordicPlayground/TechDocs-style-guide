@@ -14,3 +14,10 @@ docs_index.db-wal
 
 # Python virtual environment
 .venv/
+
+# AI config folders
+
+.vscode/
+.cursor/
+.claude/
+.openai/
