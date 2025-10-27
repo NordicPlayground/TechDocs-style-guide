@@ -34,8 +34,9 @@ python -m venv NewVenvName
 You will need `pip` to install both MkDocs and Material.
 
 1. Run `pip install mkdocs` to install MkDocs on your machine.
-1. Run `pip install mkdocs-material` to install the Material theme.
-2. Run `pip install mkdocs-macros-plugin` to install the Macros plugin.
+2. Run `pip install mkdocs-material` to install the Material theme.
+3. Run `pip install mkdocs-macros-plugin` to install the Macros plugin.
+4. Optionally, run `pip install mcp fastmcp` to install the requirements for the MCP server.
 
 ### Step 5: Deactivate the virtual environment
 To deactivate the Virtual Environment, run:
@@ -75,4 +76,30 @@ exit
    The site will be previewable on your local server at `127.0.0.1:8000`.
    Press Ctrl+C to shut down the local server.
 
+---
+
+## MCP server
+
+This repo also contains a small MCP server to serve the style guide documentation to AI tools.
+It is located in the /tools/tiny_docs_mcp.py python script.
+
+It requires mcp and fastmcp python dependencies (see the previous chapter).
+
+To configure Cursor for using the MCP server, add the following to your mcp.json:
+
+```
+  {
+    "mcpServers": {
+      "nordic-style-guide": {
+        "command": "path/to/venv/python",  ### use python3 if necessary "path/to/venv/python3"
+        "args": [
+          "/path/to/nordic-techdocs-style-guide/tools/tiny_docs_mcp.py"
+        ],
+        "cwd": "/path/to/nordic-techdocs-style-guide"
+      }
+    }
+  }
+```
+
+After that, restart cursor.
 

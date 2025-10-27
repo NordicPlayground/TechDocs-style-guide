@@ -6,3 +6,11 @@ _themes*/
 _repo.*/
 
 .openpublishing.buildcore.ps1
+
+# MCP documentation index database
+docs_index.db
+docs_index.db-shm
+docs_index.db-wal
+
+# Python virtual environment
+.venv/
