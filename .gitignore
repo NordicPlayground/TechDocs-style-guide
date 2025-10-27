@@ -21,3 +21,5 @@ docs_index.db-wal
 .cursor/
 .claude/
 .openai/
+
+__pycache__/

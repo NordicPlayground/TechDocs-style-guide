@@ -4,7 +4,10 @@ import sqlite3, pathlib, json
 from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("TechDocsStyleGuideMCP")
-DB = "docs_index.db"
+
+# Use absolute path for DB based on the script location
+SCRIPT_DIR = pathlib.Path(__file__).parent.parent
+DB = str(SCRIPT_DIR / "docs_index.db")
 
 # exclude only the *root* README.md
 def _exclude_root_readme(root: pathlib.Path, p: pathlib.Path) -> bool:
@@ -47,7 +50,10 @@ def _walk(root: pathlib.Path):
 def _rel(root: pathlib.Path, p: pathlib.Path) -> str:
     return p.resolve().relative_to(root.resolve()).as_posix()
 
-@mcp.tool()
+@mcp.tool(
+    name="reindex",
+    description="Rebuild the index from scratch for all .md/.rst under 'root'. Excludes the *root* README.md and common build/VC dirs."
+)
 def reindex(root: str = ".") -> str:
     """
     Rebuild the index from scratch for all .md/.rst under 'root'.
@@ -68,7 +74,10 @@ def reindex(root: str = ".") -> str:
     c.commit(); c.close()
     return f"Indexed {len(rows)} files from {rootp}"
 
-@mcp.tool()
+@mcp.tool(
+    name="search",
+    description="Full-text search. Returns JSON: [{id,title,path,snippet,resource_uri}]"
+)
 def search(query: str, k: int = 8) -> str:
     """
     Full-text search. Returns JSON: [{id,title,path,snippet,resource_uri}]
