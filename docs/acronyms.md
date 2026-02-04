@@ -156,3 +156,84 @@ Space-constrained elements permit different abbreviation density than flowing te
 * Prioritize reading flow over space efficiency
 
 **Decision framework**: If removing a single abbreviation breaks your layout, you're in condensed context. If it merely makes the layout longer, you're in standard context.
+
+## Terms to avoid
+
+Avoid creating unnecessary acronyms or using non-standard abbreviations that reduce clarity.
+
+### Avoid these common mistakes:
+
+| **Don't Use** | **Use Instead** | **Reason** |
+| ------------- | --------------- | ---------- |
+| FW | firmware | Too informal, spell out |
+| HW | hardware | Too informal, spell out |
+| SW | software | Too informal, spell out |
+| DB | database | Can be confused with decibel (dB) |
+| repo | repository | Too informal for documentation |
+| docs | documentation | Too informal for documentation |
+| config | configuration | Too informal for documentation |
+
+### Nordic-specific guidance:
+
+* **Product names**: Never abbreviate Nordic product names
+  - Write "nRF Connect SDK" not "NCSDK"
+  - Write "Secure Partition Manager" not "SPM"
+
+* **Tool names**: Use established abbreviations only
+  - "DK" is acceptable for Development Kit (after first mention)
+  - "SDK" is acceptable for Software Development Kit (after first mention)
+  - "RTOS" is acceptable for Real-Time Operating System
+
+* **Technical terms**: Follow industry standards
+  - "GPIO" (General Purpose Input/Output) - standard and acceptable
+  - "UART" (Universal Asynchronous Receiver/Transmitter) - standard and acceptable
+  - "SPI" (Serial Peripheral Interface) - standard and acceptable
+
+## Commonly confused terms
+
+Be careful with terms that look similar or sound alike.
+
+### Common confusions:
+
+**It's vs. Its**
+
+* **It's** = It is (contraction)
+* **Its** = possessive form
+* *Example*: "It's important to check its status"
+
+**Affect vs. Effect**
+
+* **Affect** = verb meaning to influence
+* **Effect** = noun meaning result
+* *Example*: "This setting affects the output" vs. "The effect is noticeable"
+
+**That vs. Which**
+
+* **That** = restrictive clause (no comma)
+* **Which** = non-restrictive clause (with comma)
+* *Example*: "The device that supports BLE" vs. "The nRF52840, which supports BLE, ..."
+
+**Ensure vs. Insure vs. Assure**
+
+* **Ensure** = make certain
+* **Insure** = provide insurance
+* **Assure** = tell someone confidently
+* *Example*: "Ensure the device is powered"
+
+### Nordic-specific term clarifications:
+
+**Device vs. Board vs. DK**
+
+* **Device**: The IC/SoC itself (nRF52840)
+* **Board**: Specific Zephyr-related term
+* **DK**: Specifically Nordic Development Kit boards
+
+**Peripheral vs. Interface**
+
+* **Peripheral**: Hardware module within SoC (UART peripheral)
+* **Interface**: Connection method or API (serial interface)
+
+**Mode vs. State**
+
+* **Mode**: User-configurable setting (Sleep mode)
+* **State**: System-determined condition (Connected state)

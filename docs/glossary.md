@@ -32,6 +32,241 @@ Tech writers can add terms to the word list after consulting with the Style chan
 * Use the following status values if needed: preferred, restricted, prohibited, obsolete
 * Be careful with capitalization (always lower case unless a proper noun or a term written in a certain way by a standardization organization)
 
+## Glossary entry format
+
+Use a consistent format for all glossary entries to ensure clarity and usability.
+
+### Entry structure
+
+**Format:**
+
+```
+| Term (part of speech) | Definition |
+| --------------------- | ---------- |
+| example term (n.)     | Clear, concise definition. **Example:** Usage in context. **Status:** If applicable |
+```
+
+**Components:**
+
+* **Term**: The word or phrase being defined
+* **Part of speech**: (n.), (v.), (mod.), (abbr.), etc.
+* **Definition**: Clear, concise explanation
+* **Example**: Shows proper usage (optional but recommended)
+* **Status**: preferred, restricted, prohibited, obsolete (if needed)
+
+### Writing effective definitions
+
+**Be concise:**
+
+* Keep definitions brief and focused
+* Define the term itself, not related concepts
+
+**Start with the term's category:**
+
+* Nouns: "A device that..." or "The process of..."
+* Verbs: "To perform..." or "The act of..."
+* Adjectives: "Describing something that..."
+
+**Avoid circular definitions:**
+
+**Avoid:**
+
+* "Firmware: Software for firmware applications"
+
+**Use:**
+
+* "Firmware: Software programmed into read-only memory that controls hardware functions"
+
+**Use Nordic-specific context:**
+
+Include relevant context for Nordic products when appropriate.
+
+**Example:**
+
+"bootloader (n.): A program that initializes hardware and loads the main application. **Example:** The nRF Connect SDK includes a secure bootloader for firmware updates."
+
+## When to add terms
+
+Add terms to the glossary strategically, not exhaustively.
+
+### Add terms when:
+
+* The term is specific to Nordic products or embedded systems
+* The term has a special meaning in Nordic documentation
+* The term is technical and might be unfamiliar to some readers
+* Usage needs to be standardized across documentation
+
+### Don't add terms when:
+
+* The term appears in standard dictionaries with the same meaning
+* The term is used only once or very rarely
+* The definition would be obvious from context
+* The term is covered in Read Me First style guide
+
+**Example of terms to add:**
+
+* "SoftDevice" - Nordic-specific term
+* "device tree" - Technical term with specific meaning
+* "west" - Tool name requiring explanation
+
+**Example of terms NOT to add:**
+
+* "computer" - Standard dictionary term
+* "initialize" - Common technical term with standard meaning
+* "button" - Self-explanatory in context
+
+## Cross-referencing in glossaries
+
+Link related terms to help users understand relationships and find additional information.
+
+### Use cross-references for:
+
+* Related terms that provide context
+* Terms with similar but distinct meanings
+* Broader or narrower terms in a hierarchy
+* Alternative terms or synonyms
+
+**Format for cross-references:**
+
+Use "See also:" or "Compare:" followed by linked terms.
+
+**Example:**
+
+```
+| Term | Definition |
+| ---- | ---------- |
+| bootloader (n.) | A program that initializes hardware and loads the main application. **See also:** [firmware](#f), [DFU](#d) |
+```
+
+### Types of cross-references
+
+**"See"** - directs to the preferred term:
+
+```
+| BLE (abbr.) | **Status:** Prohibited. **See:** Bluetooth Low Energy |
+```
+
+**"See also"** - suggests related terms:
+
+```
+| peripheral (n.) | A hardware module within an SoC. **See also:** [UART](#u), [SPI](#s), [I2C](#i) |
+```
+
+**"Compare"** - highlights similar but distinct terms:
+
+```
+| mode (n.) | User-configurable setting. **Compare:** [state](#s) |
+| state (n.) | System-determined condition. **Compare:** [mode](#m) |
+```
+
+## Alphabetization rules
+
+Follow consistent alphabetization rules for ease of navigation.
+
+### Standard alphabetization
+
+* Alphabetize by the first significant word
+* Ignore articles (a, an, the) when alphabetizing
+* Treat hyphens and spaces as if they don't exist
+* Numbers come before letters
+
+### Special cases
+
+**Acronyms:**
+
+* Alphabetize acronyms as if spelled out
+* Place the acronym entry near the spelled-out entry
+
+Example order:
+* BLE (Bluetooth Low Energy)
+* Bluetooth Low Energy
+* Bluetooth wireless technology
+
+**Symbols:**
+
+* Group symbols at the beginning or in a separate section
+* @ (at sign)
+* # (hash)
+
+**Capitalization:**
+
+* Treat uppercase and lowercase the same for alphabetization
+* "nRF52840" comes before "nRF9160" (numerical order within nRF)
+
+**Multiple entries for same base word:**
+
+* Noun form first
+* Verb form second
+* Adjective/modifier form third
+
+Example:
+* "set up" (v.)
+* "setup" (n., mod.)
+
+### Section organization
+
+Organize glossary into alphabetical sections with clear headers:
+
+```
+### A
+[Terms starting with A]
+
+### B
+[Terms starting with B]
+```
+
+Add "Back to top" links at the end of each section for long glossaries.
+
+## Acronym handling in glossaries
+
+Special consideration is needed for acronyms in glossaries.
+
+### Acronym entry format
+
+**Include both forms:**
+
+Create entries for both the acronym and the spelled-out term, with one referring to the other.
+
+**Primary entry (spelled-out):**
+
+```
+| Bluetooth Low Energy (BLE) | Wireless communication protocol for short-range, low-power applications. **Example:** The nRF52840 supports Bluetooth Low Energy 5.3 features. |
+```
+
+**Secondary entry (acronym):**
+
+```
+| BLE | **Status:** Prohibited in documentation. **See:** [Bluetooth Low Energy](#b) |
+```
+
+### Status indicators for acronyms
+
+Use status indicators to guide proper usage:
+
+* **Preferred**: Use this acronym after first mention
+* **Restricted**: Use only in specific contexts
+* **Prohibited**: Never use; always spell out
+
+**Examples:**
+
+```
+| DK (abbr.) | Development Kit. **Status:** Preferred for Nordic development boards after first mention. |
+| BLE (abbr.) | **Status:** Prohibited. Use "Bluetooth Low Energy" instead. |
+| SDK (abbr.) | Software Development Kit. **Status:** Preferred after first mention as "nRF Connect SDK". |
+```
+
+### When acronyms need definition
+
+Even common acronyms may need glossary entries if:
+
+* They have Nordic-specific meanings
+* They're used differently than in general computing
+* They're critical to understanding Nordic documentation
+
+**Example:**
+
+"DFU (abbr.): Device Firmware Update. Nordic's over-the-air firmware update mechanism. **Example:** Use DFU to update nRF52 series devices without a physical connection."
+
 ## List of Terms
 
 Abbreviations used in the list:

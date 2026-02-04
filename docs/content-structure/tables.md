@@ -52,3 +52,64 @@ If there’s text that introduces the table, it should be a complete sentence an
 Don’t use ellipses at the end of column headings.
 
 For the text in cells, use periods or other end punctuation only if the cells contain complete sentences or a mixture of fragments and sentences.
+
+## Table placement
+
+Place tables appropriately in the flow of your documentation to maintain readability and logical structure.
+
+### Don't insert tables mid-sentence
+
+Complete your sentence before introducing a table. Don't split a sentence across a table.
+
+**Avoid:**
+
+The nRF52840 supports the following peripherals
+
+| Peripheral | Count |
+| ---------- | ----- |
+| UART       | 2     |
+| SPI        | 3     |
+
+which can be configured using the device tree.
+
+**Use:**
+
+The nRF52840 supports multiple peripherals.
+The following table lists the available peripherals:
+
+| Peripheral | Count |
+| ---------- | ----- |
+| UART       | 2     |
+| SPI        | 3     |
+
+Configure these peripherals using the device tree.
+
+### Table numbering for formal documents
+
+For formal documentation or specifications that require references to tables, use numbered tables with descriptive captions.
+
+**Format:** Table X: [Descriptive caption]
+
+**Example:**
+
+**Table 1: nRF9160 power consumption in different modes**
+
+| Mode       | Current Draw |
+| ---------- | ------------ |
+| Active LTE | 13 mA        |
+| PSM        | 2.7 µA       |
+| System OFF | 400 nA       |
+
+Reference numbered tables consistently in your text:
+
+* "See Table 1 for power consumption details"
+* "Table 2 shows the GPIO configuration options"
+* "As shown in Table 3, the nRF52840 supports multiple radio protocols"
+
+Use table numbering only when:
+
+* You need to reference tables from multiple locations in the document
+* The document follows a formal specification or standards format
+* The document contains many tables that readers need to navigate
+
+For most web-based documentation, descriptive headings work better than numbered tables.

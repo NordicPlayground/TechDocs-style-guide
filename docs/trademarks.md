@@ -15,6 +15,177 @@ A relationship means:
 * Any third party components we use on a PCB board (for example dev kit) or with our ICs.
 * Protocols that we have strong links to the organizations that run them i.e., ANT+ and Bluetooth.
 
+## Trademark terminology
+
+Understanding trademark terminology helps you use trademarks correctly in documentation.
+
+| **Term** | **Definition** | **Example** |
+| -------- | -------------- | ----------- |
+| **Trademark (™)** | A word, phrase, symbol, or design that identifies the source of goods or services and distinguishes them from others | Nordic Semiconductor™ |
+| **Registered trademark (®)** | A trademark that has been officially registered with a government trademark office | Bluetooth® |
+| **Service mark (℠)** | Similar to a trademark, but identifies services rather than products | Nordic DevAcademy℠ |
+| **Trade name** | The official name under which a company does business | Nordic Semiconductor ASA |
+| **Brand name** | A name given by a company to a product or service | nRF Connect SDK |
+| **Legend** | The trademark attribution statement, typically at the bottom of a page or in a legal section | "Bluetooth is a registered trademark of Bluetooth SIG, Inc." |
+
+### Trademark vs. registered trademark
+
+* **™** indicates an unregistered trademark (common law rights)
+* **®** indicates a trademark registered with a national trademark office
+* Use the symbol that matches the trademark owner's usage
+
+## Proper use of trademarks
+
+Trademarks must be used correctly to maintain their legal protection and show respect for trademark owners.
+
+### Trademark symbols (™, ®, ℠)
+
+Use trademark symbols according to these guidelines:
+
+**When to use symbols:**
+
+* On first and most prominent use of the trademark in a document
+* In marketing materials and product names
+* When referencing third-party trademarks per their guidelines
+* In headers, titles, or other prominent locations
+
+**When symbols may be omitted:**
+
+* Subsequent uses after the first marked occurrence
+* In body text after establishing the trademark in the introduction
+* In technical specifications where frequent use would clutter the text
+
+**Example:**
+
+"The nRF Connect SDK supports Bluetooth® wireless technology for developing IoT applications. Configure Bluetooth settings in the device configuration file..."
+
+[First use has ®, subsequent uses omit it]
+
+### Symbol placement
+
+Place the trademark symbol immediately after the trademark, with no space:
+
+* **Correct:** Bluetooth®
+* **Incorrect:** Bluetooth ®, Bluetooth ® , Bluetooth (®)
+
+Position symbols as superscripts when formatting allows:
+
+* HTML/Markdown: `Bluetooth<sup>®</sup>` renders as Bluetooth®
+* Plain text: Bluetooth(R) or Bluetooth® depending on available characters
+
+### Trademarks as adjectives, not nouns
+
+Always use trademarks as adjectives modifying a noun, never as nouns themselves.
+
+**Incorrect use (as nouns):**
+
+* "Connect using Bluetooth"
+* "Install the nRF Connect SDK"
+* "Use Zephyr for your application"
+
+**Correct use (as adjectives):**
+
+* "Connect using Bluetooth® wireless technology"
+* "Install the nRF Connect SDK development kit"
+* "Use the Zephyr® RTOS for your application"
+
+**Acceptable shortened forms after first use:**
+
+* First mention: "Bluetooth® Low Energy technology"
+* Later mentions: "Bluetooth Low Energy" (adjective + descriptive term)
+
+### Don't pluralize or use possessive
+
+Trademarks should never be pluralized or made possessive.
+
+**Avoid:**
+
+* "We tested three nRF52840s"
+* "The Bluetooth's range is..."
+* "Multiple Zephyrs running simultaneously"
+
+**Use:**
+
+* "We tested three nRF52840 devices"
+* "The Bluetooth connection's range is..."
+* "Multiple Zephyr RTOS instances running simultaneously"
+
+## Trademarks in online works
+
+Web-based documentation requires additional considerations for trademark use.
+
+### Link trademark symbols appropriately
+
+When trademarks appear in links, apply the symbol to the full trademark, not the link:
+
+**Correct:**
+
+* [Learn about Bluetooth® technology](https://www.bluetooth.com)
+* [Download the nRF Connect SDK](https://www.nordicsemi.com)
+
+Don't place trademark symbols in the link text if they're not part of the natural link label.
+
+### Provide trademark attributions
+
+Include a trademark attribution section or footer on web pages:
+
+**Example:**
+
+"Bluetooth® is a registered trademark of Bluetooth SIG, Inc. nRF Connect SDK is a trademark of Nordic Semiconductor ASA. All other trademarks are the property of their respective owners."
+
+### Maintain trademarks in metadata
+
+When appropriate, include trademarks in:
+
+* Page titles: "nRF Connect SDK - Bluetooth® Development"
+* Meta descriptions: "Develop Bluetooth Low Energy applications with the nRF Connect SDK"
+* Image alt text: "Bluetooth Low Energy connection diagram"
+
+## Third-party trademarks
+
+When referencing other companies' trademarks, follow their trademark guidelines.
+
+### Check trademark owner guidelines
+
+Before using a third-party trademark, review the owner's trademark usage guidelines:
+
+* Bluetooth SIG: [Brand Guide](https://www.bluetooth.com/brand-guide)
+* Arm: [Trademark List](https://www.arm.com/company/policies/trademarks)
+* Wi-Fi Alliance: [Brand Guidelines](https://www.wi-fi.org/who-we-are/our-brands)
+
+### Use correct trademark forms
+
+Use the exact form specified by the trademark owner:
+
+* Bluetooth® wireless technology (not "BLE", or "Bluetooth Smart" unless specifically appropriate)
+* Arm® Cortex®-M4 processor (not "ARM Cortex M4" or "Cortex-M4 CPU")
+* Wi-Fi® technology (not "WiFi" or "Wifi")
+
+### Include required attributions
+
+Some trademark owners require specific attribution statements. Include these in your documentation:
+
+**Example:**
+
+"Bluetooth® is a registered trademark of Bluetooth SIG, Inc. Any use of the Bluetooth trademarks by Nordic Semiconductor ASA is under license."
+
+### Don't create confusion
+
+Never use trademarks in a way that:
+
+* Implies endorsement by the trademark owner (unless you have permission)
+* Suggests your product is made by the trademark owner
+* Dilutes or tarnishes the trademark
+
+**Avoid:**
+
+* "Nordic's Bluetooth solution" (implies ownership of the Bluetooth trademark)
+
+**Use:**
+
+* "Nordic's Bluetooth® technology implementation"
+* "Nordic devices with Bluetooth Low Energy support"
+
 ## Company Trademarks
 
 | Company       | Trademark Guidelines |

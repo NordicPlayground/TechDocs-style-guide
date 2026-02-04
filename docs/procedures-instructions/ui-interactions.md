@@ -17,3 +17,109 @@ Customers interact with products using different input methods: keyboard, mouse,
 | **Enter** | Instructing the customer to type or otherwise insert a value or to type/select a value in a combo box. | <ul><li>In the search box, enter…</li></ul><ul><li>In the **Tab stop position** box, enter the location where you want to set the new tab.</li></ul><ul><li>In the **Deployment script name** box, enter a name for this script.</li></ul> |
 | **Move, drag** | Moving anything from one place to another by dragging, cutting and pasting, or another method. Use for tiles and any open window (including apps, dialog boxes, files, and blades). Use *move through* to describe moving around on a page, through screens/pages in an app, or up, down, right, and left in a UI. | <ul><li>Drag the Filename file to the Foldername folder.</li></ul><ul><li>Move the tile to the new section.</li></ul><ul><li>Drag the Snipping Tool out of the way if necessary, and then select the area you want to capture.</li></ul><ul><li>If the **Apply Styles** task pane is in your way, just move it.</li></ul> |
 | **Zoom, zoom in, zoom out** | Use *zoom,* *zoom in,* and *zoom out* to refer to changing the magnification of the screen or window. | <ul><li>Zoom in to see more details on the map.</li></ul><ul><li>Zoom out to see a larger geographic area on the map.</li></ul><ul><li>Zoom in or out to see more or less detail.</li></ul> |
+
+## Markdown GUI documentation guidelines
+
+When documenting graphical user interfaces, follow these principles to create clear, consistent instructions.
+
+### Identify UI elements accurately
+
+Use the exact text or label as it appears in the interface. Match capitalization and punctuation.
+
+**Examples:**
+
+* Button says "Add Device" → Write: Click **Add Device**
+* Tab says "Configuration" → Write: On the **Configuration** tab
+* Field labeled "Device Name:" → Write: In the **Device Name** field
+
+### Format UI elements consistently
+
+Use consistent formatting to help users quickly identify UI elements.
+
+**Bold for clickable elements:**
+
+* **Buttons:** Click **Save**
+* **Menus:** On the **File** menu
+* **Tabs:** Select the **Advanced** tab
+
+**Italics for values:**
+
+* Enter *MyDevice* in the **Name** field
+
+### Document menu paths clearly
+
+Use the greater-than symbol (>) to show menu navigation paths.
+
+**Format:** Menu > Submenu > Command
+
+**Examples:**
+
+* Select **File** > **Open** > **Project**
+* Go to **Tools** > **Options** > **Advanced**
+
+## Screen capture guidelines
+
+Use screen captures strategically to enhance documentation.
+
+### When to use screen captures
+
+**Use for:**
+
+* Complex UIs difficult to describe
+* Showing exact location of UI elements
+* Illustrating Before/After states
+
+**Don't use for:**
+
+* Simple actions ("Click **OK**")
+* UIs that change frequently
+
+## UI element terminology
+
+Use consistent terminology for UI elements.
+
+| **Element Type** | **Preferred Term** | **Examples** |
+| ---------------- | ------------------ | ------------ |
+| Push button | button | Click the **Add** button |
+| Toggle button | toggle, switch | Turn on the **Enable BLE** toggle |
+| Checkbox | checkbox | Select the **Show advanced options** checkbox |
+| Dropdown | list, dropdown list | From the **Board** list, select your board |
+| Text field | field, text box | In the **Device Name** field, enter a name |
+| Tab | tab | On the **Configuration** tab |
+| Menu | menu | From the **File** menu |
+| Dialog box | dialog, dialog box | The **Settings** dialog opens |
+| Window | window | Close the **Device Manager** window |
+
+### Nordic-specific terminology
+
+* Use "app" not "application": "Open the Programmer app"
+* Use "DK" consistently: "Connect the nRF52840 DK"
+* Use specific button names: "Press **Button 1**"
+
+## Documenting menus, dialogs, and wizards
+
+### Menus
+
+**Simple selections:**
+
+"Select **File** > **Save**"
+
+### Dialog boxes
+
+**Opening:**
+
+"Click **Settings** to open the Settings dialog"
+
+**Steps within:**
+
+1. In the **Device Name** field, enter a name
+2. From the **Connection Type** list, select **BLE**
+3. Click **OK**
+
+### Wizards
+
+Format as numbered steps with each page as a step:
+
+1. On the **Welcome** page, click **Next**
+2. On the **Device Selection** page, select your device and click **Next**
+3. On the **Configuration** page, configure settings and click **Finish**

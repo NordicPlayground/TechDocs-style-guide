@@ -23,3 +23,6 @@ docs_index.db-wal
 .openai/
 
 __pycache__/
+
+.todo
+.todonext

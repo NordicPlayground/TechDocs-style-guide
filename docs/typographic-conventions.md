@@ -35,7 +35,7 @@ E.g. `sd_ble_gap_authenticate()`
 === "RST"
 
     ```
-    :c:enumerator:  
+    :c:enumerator:
     `code`
     ```
 
@@ -231,7 +231,7 @@ E.g. `path/this/that`
 
 Buttons, menus, and menu selection names (clickable items that have an action associated with it).
 
-E.g. On the **File** menu, click **Save**.
+For example: On the **File** menu, click **Save**.
 
 === "Dita"
 
@@ -253,7 +253,7 @@ E.g. On the **File** menu, click **Save**.
 
 ## Key names
 
-E.g. Ctrl-Alt-Del, Press Shift-8
+For example: ++ctrl+alt+del++, Press ++shift+8++
 
 === "Dita"
 
@@ -266,6 +266,61 @@ E.g. Ctrl-Alt-Del, Press Shift-8
 === "Markdown"
 
     Regular text
+
+### Key name capitalization
+
+Capitalize the first letter of key names when they spell out words, but use all caps for abbreviated keys.
+
+| Key Type | Capitalization | Examples |
+| -------- | -------------- | -------- |
+| Letter keys | Lowercase | Press ++a++, ++b++, or ++c++ |
+| Number keys | As shown | Press ++1++, ++2++, or ++3++ |
+| Function keys | Uppercase | ++f1++, ++f12++ |
+| Named keys | Capitalize first letter | ++enter++, ++tab++, ++shift++, ++ctrl++, ++alt++, ++esc++ |
+| Special characters | Name the key | ++plus++, ++minus++, ++equal++, ++slash++ |
+| Directional keys | Capitalize first letter | ++arrow-up++, ++arrow-down++, ++arrow-left++, ++arrow-right++ |
+
+### Documenting multiple keystrokes
+
+Use a plus sign (+) to indicate keys pressed simultaneously. Use the word "then" for sequential keypresses.
+
+**Simultaneous keys (keyboard shortcuts):**
+
+* ++ctrl+shift+p++ - Open command palette
+* ++ctrl+alt+del++ - Windows security options
+* ++alt+f4++ - Close window
+
+**Sequential keypresses:**
+
+* Press ++alt++, then ++f++, then ++s++ to save a file in some applications
+* Press ++esc++ to cancel, then press ++enter++ to confirm
+
+**Complex combinations:**
+
+* ++ctrl+k++ then ++ctrl+s++ - Keyboard Shortcuts in VS Code
+* Hold ++shift++ and press ++arrow-down++ to select multiple lines
+
+### Platform-specific key names
+
+Document key names according to the platform your readers use:
+
+| Key Function | Windows/Linux | macOS |
+| ------------ | ------------- | ----- |
+| Primary modifier | ++ctrl++ | ++cmd++ |
+| Secondary modifier | ++alt++ | ++option++ |
+| Menu access | ++alt++ | ++ctrl++ or ++cmd++ |
+| Delete forward | ++del++ | ++fn+delete++ |
+
+When documenting cross-platform software, either provide platform-specific instructions or use generic descriptions:
+
+**Platform-specific:**
+
+* Windows: Press ++ctrl+c++ to copy
+* macOS: Press ++cmd+c++ to copy
+
+**Generic:**
+
+Use your system's copy command to copy the selected text.
 
 ## Memory operation types
 
@@ -593,9 +648,9 @@ E.g. The 128-bit characteristic UUID is `00001630-1212-EFDE-1524-785FEABCD123`.
 
 Register and parameter values.
 
-Ex. Set the bit to `1`.  
-Ex. Set the Voltage (V) to `4`.  
-Ex. Set the pin `HIGH`.  
+Ex. Set the bit to `1`.
+Ex. Set the Voltage (V) to `4`.
+Ex. Set the pin `HIGH`.
 Ex. Set the mode to `Enable`.
 
 === "Dita"
@@ -615,3 +670,80 @@ Ex. Set the mode to `Enable`.
     ```
     `value`
     ```
+
+## Symbol names
+
+When referring to symbols and special characters in documentation, use the names in this table for clarity and consistency. This is especially important for international audiences and accessibility tools.
+
+### Common symbols
+
+| Symbol | Name | Usage in Documentation |
+| ------ | ---- | ---------------------- |
+| & | ampersand | Use "and" in text; use symbol only in company names or code |
+| * | asterisk | "Use an asterisk (*) to indicate required fields" |
+| @ | at sign | "Email addresses use the at sign (@)" |
+| \ | backslash | "Separate directories with a backslash (\) on Windows" |
+| \| | pipe, vertical bar | "Use the pipe symbol (\|) to separate options" |
+| ^ | caret | "The caret (^) symbol indicates bitwise XOR" |
+| : | colon | "Use a colon (:) to introduce lists" |
+| , | comma | "Separate items with commas (,)" |
+| { } | braces, curly brackets | "Enclose code blocks in braces ({ })" |
+| $ | dollar sign | "Precede shell variables with a dollar sign ($)" |
+| = | equal sign, equals | "Use the equal sign (=) for assignment" |
+| ! | exclamation mark | "The exclamation mark (!) indicates negation" |
+| \> | greater-than sign | "Values greater than (>) the threshold" |
+| # | hash, number sign, pound | "Begin comments with a hash (#) symbol" |
+| \< | less-than sign | "Values less than (<) the minimum" |
+| - | hyphen, minus | "Use a hyphen (-) in compound modifiers" |
+| % | percent sign | "Express ratios using the percent sign (%)" |
+| . | period, dot | "End sentences with a period (.)" |
+| + | plus sign | "Use the plus sign (+) for addition" |
+| ? | question mark | "End questions with a question mark (?)" |
+| " | quotation mark | "Enclose strings in quotation marks (\")" |
+| ' | apostrophe, single quote | "Use apostrophes (') for possessives" |
+| ; | semicolon | "Separate statements with a semicolon (;)" |
+| / | slash, forward slash | "Separate path elements with a slash (/)" |
+| [ ] | brackets, square brackets | "Use brackets ([ ]) for arrays" |
+| ~ | tilde | "The tilde (~) represents the home directory" |
+| _ | underscore | "Use underscores (_) in variable names" |
+
+### Mathematical and technical symbols
+
+| Symbol | Name | Usage in Documentation |
+| ------ | ---- | ---------------------- |
+| ± | plus or minus | "Tolerance is ±5%" |
+| × | multiplication sign, times | "Matrix dimensions are 3 × 4" |
+| ÷ | division sign | "10 ÷ 2 equals 5" |
+| ≠ | not equal to | "Verify that x ≠ 0" |
+| ≈ | approximately equal | "The value is ≈3.14" |
+| ≤ | less than or equal to | "Set threshold ≤ maximum" |
+| ≥ | greater than or equal to | "Ensure voltage ≥ 3.3V" |
+| ° | degree | "Rotate 90° clockwise" |
+| µ | micro | "Current consumption: 2.7 µA" |
+| Ω | ohm | "Resistance: 10 kΩ" |
+| → | right arrow | "Data flows: sensor → MCU → cloud" |
+| ← | left arrow | "Response path: cloud ← MCU ← sensor" |
+
+### Usage guidelines
+
+**Be explicit in instructions:**
+
+* **Avoid:** "Press #"
+* **Use:** "Press the hash key (#) or the number sign (#)"
+
+**For international audiences:**
+
+* Use the written name at first mention: "Enter the at sign (@) before the domain name"
+* Symbols can vary by region (e.g., # is "hash" in UK, "pound" in US)
+* Screen readers announce symbols by name, so choose clear terminology
+
+**In code examples:**
+
+* Symbols in code should remain as symbols
+* Explain symbol meaning in accompanying text
+* "The expression `value != 0` checks if value is not equal to zero"
+
+**Accessibility:**
+
+* Always provide text alternatives in alt text: "Figure 1 shows a flow diagram with arrows (→) connecting the components"
+* Don't rely solely on symbols to convey meaning without explanatory text
