@@ -62,26 +62,41 @@ nav:
   - Content structure:
     - Content structure: content-structure/index.md
     - Code examples: content-structure/code-examples.md
+    - Cross-references: content-structure/cross-references.md
+    - Error messages: content-structure/error-messages.md
     - Headings: content-structure/headings.md
+    - Illustrations: content-structure/illustrations.md
+    - Links: content-structure/links.md
     - Lists: content-structure/lists.md
+    - Modular writing: content-structure/modular-writing.md
+    - Notes, cautions, and tips: content-structure/notes-cautions-tips.md
+    - Organization schemes: content-structure/organization-schemes.md
     - Procedures and instructions:
       - Step-by-step instructions: procedures-instructions/step-by-step-instructions.md
+      - Task hierarchy: procedures-instructions/task-hierarchy.md
+      - Task organization: procedures-instructions/task-organization.md
       - UI interactions: procedures-instructions/ui-interactions.md
+      - Procedure review: procedures-instructions/procedure-review.md
       - Alternative input methods: procedures-instructions/alternative-input-methods.md
     - Tables: content-structure/tables.md
   - Glossary: glossary.md
   - Grammar and parts of speech:
     - Grammar and parts of speech: grammar/index.md
+    - Clauses: grammar/clauses.md
     - Dangling and misplaced modifiers: grammar/dangling-misplaced-modifiers.md
     - Nouns and pronouns: grammar/nouns-pronouns.md
     - Person: grammar/person.md
     - Prepositions: grammar/prepositions.md
+    - Sentence structure: grammar/sentence-structure.md
     - Verbs: grammar/verbs.md
     - Words ending in -ing: grammar/ing-words.md
   - Numbers: numbers.md
   - Planning:
     - Content planning: planning/content-planning.md
     - Design planning: planning/design-planning.md
+    - Document types: planning/document-types.md
+    - Editorial process: planning/editorial-process.md
+    - Legal guidelines: planning/legal-guidelines.md
     - Final publishing review: planning/final-publishing-review.md
   - Punctuation:
     - Punctuation: punctuation/index.md
@@ -103,6 +118,13 @@ nav:
   - Writing tips:
     - Writing tips: writing-tips/index.md
     - Accessibility tips: writing-tips/accessibility.md
+    - Anthropomorphisms: writing-tips/anthropomorphisms.md
     - Bias-free communication: writing-tips/bias-free-communication.md
+    - Internationalization: writing-tips/internationalization.md
     - Jargon: writing-tips/jargon.md
+    - Online context: writing-tips/online-context.md
+    - Online writing: writing-tips/online-writing.md
+    - Reader-focused writing: writing-tips/reader-focused.md
+    - Redundancies: writing-tips/redundancies.md
+    - Scannable writing: writing-tips/scannable-writing.md
     - Searchability: writing-tips/searchability.md
