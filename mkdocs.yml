@@ -1,0 +1,134 @@
+site_name: TechDocs Style Guide
+site_url: https://nordicplayground.github.io/TechDocs-style-guide/
+use_directory_urls: true
+
+exclude_docs:
+  busytopic.md
+
+theme:
+  name: material
+  palette:
+    - scheme: custom-blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: custom-blue-dark
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  logo: assets/nordic_logo.png
+  favicon: assets/nordic_logo.png
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+    - content.tabs.link
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - toc.follow
+
+extra_css:
+  - stylesheets/style.css
+
+copyright: Copyright &copy; Nordic Semiconductor 2026
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - meta
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      toc_depth: 4
+
+plugins:
+  - macros
+  - search
+
+extra:
+  test: This is a test abbreviation snippet
+
+nav:
+  - Home: README.md
+  - Acronyms: acronyms.md
+  - Capitalization: capitalization.md
+  - Content structure:
+    - Content structure: content-structure/index.md
+    - Code examples: content-structure/code-examples.md
+    - Cross-references: content-structure/cross-references.md
+    - Error messages: content-structure/error-messages.md
+    - Headings: content-structure/headings.md
+    - Illustrations: content-structure/illustrations.md
+    - Links: content-structure/links.md
+    - Lists: content-structure/lists.md
+    - Modular writing: content-structure/modular-writing.md
+    - Notes, cautions, and warnings: content-structure/notes-cautions-tips.md
+    - Organization schemes: content-structure/organization-schemes.md
+    - Procedures and instructions:
+      - Step-by-step instructions: procedures-instructions/step-by-step-instructions.md
+      - Task hierarchy: procedures-instructions/task-hierarchy.md
+      - Task organization: procedures-instructions/task-organization.md
+      - UI interactions: procedures-instructions/ui-interactions.md
+      - Procedure review: procedures-instructions/procedure-review.md
+      - Alternative input methods: procedures-instructions/alternative-input-methods.md
+    - Tables: content-structure/tables.md
+  - Glossary: glossary.md
+  - Grammar and parts of speech:
+    - Grammar and parts of speech: grammar/index.md
+    - Clauses: grammar/clauses.md
+    - Dangling and misplaced modifiers: grammar/dangling-misplaced-modifiers.md
+    - Nouns and pronouns: grammar/nouns-pronouns.md
+    - Person: grammar/person.md
+    - Prepositions: grammar/prepositions.md
+    - Sentence structure: grammar/sentence-structure.md
+    - Verbs: grammar/verbs.md
+    - Words ending in -ing: grammar/ing-words.md
+  - Numbers: numbers.md
+  - Product names: product-names.md
+  - Planning:
+    - Content planning: planning/content-planning.md
+    - Design planning: planning/design-planning.md
+    - Document types: planning/document-types.md
+    - Editorial process: planning/editorial-process.md
+    - Legal guidelines: planning/legal-guidelines.md
+    - Final publishing review: planning/final-publishing-review.md
+  - Punctuation:
+    - Punctuation: punctuation/index.md
+    - Apostrophes: punctuation/apostrophes.md
+    - Colons: punctuation/colons.md
+    - Commas: punctuation/commas.md
+    - Dashes and hyphens: punctuation/dashes-and-hyphens.md
+    - Ellipses: punctuation/ellipses.md
+    - Parentheses: punctuation/parentheses.md
+    - Exclamation points: punctuation/exclamation-points.md
+    - Periods: punctuation/periods.md
+    - Quotation marks: punctuation/quotation-marks.md
+    - Semicolons: punctuation/semicolons.md
+    - Slashes: punctuation/slashes.md
+    - Square brackets: punctuation/square-brackets.md
+  - Trademarks: trademarks.md
+  - Typographic conventions: typographic-conventions.md
+  - Units of measurement: units-of-measurement.md
+  - URLs and web addresses: urls-web-addresses.md
+  - Writing tips:
+    - Writing tips: writing-tips/index.md
+    - Accessibility tips: writing-tips/accessibility.md
+    - Anthropomorphisms: writing-tips/anthropomorphisms.md
+    - Bias-free communication: writing-tips/bias-free-communication.md
+    - Internationalization: writing-tips/internationalization.md
+    - Jargon: writing-tips/jargon.md
+    - Online context: writing-tips/online-context.md
+    - Online writing: writing-tips/online-writing.md
+    - Reader-focused writing: writing-tips/reader-focused.md
+    - Redundancies: writing-tips/redundancies.md
+    - Scannable writing: writing-tips/scannable-writing.md
+    - Searchability: writing-tips/searchability.md
