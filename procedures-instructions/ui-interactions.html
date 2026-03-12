@@ -1,0 +1,3229 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="task-organization.html">
+      
+      
+        <link rel="next" href="procedure-review.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/nordic_logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+    
+    
+      
+        <title>UI interactions - TechDocs Style Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="custom-blue" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#describing-interactions-with-ui" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="TechDocs Style Guide" class="md-header__button md-logo" aria-label="TechDocs Style Guide" data-md-component="logo">
+      
+  <img src="../assets/nordic_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TechDocs Style Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              UI interactions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="custom-blue" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="custom-blue-dark" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="TechDocs Style Guide" class="md-nav__button md-logo" aria-label="TechDocs Style Guide" data-md-component="logo">
+      
+  <img src="../assets/nordic_logo.png" alt="logo">
+
+    </a>
+    TechDocs Style Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../acronyms.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acronyms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../capitalization.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capitalization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../content-structure/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Content structure
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Content structure
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/code-examples.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code examples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/cross-references.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cross-references
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/error-messages.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Error messages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/headings.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Headings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/illustrations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illustrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/links.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Links
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/lists.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/modular-writing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modular writing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/notes-cautions-tips.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notes, cautions, and warnings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/organization-schemes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organization schemes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_12" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_12" id="__nav_4_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Procedures and instructions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_12_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Procedures and instructions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="step-by-step-instructions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step-by-step instructions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="task-hierarchy.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Task hierarchy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="task-organization.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Task organization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UI interactions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="ui-interactions.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UI interactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#markdown-gui-documentation-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Markdown GUI documentation guidelines
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Markdown GUI documentation guidelines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#identify-ui-elements-accurately" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identify UI elements accurately
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#format-ui-elements-consistently" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Format UI elements consistently
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-menu-paths-clearly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Document menu paths clearly
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#screen-capture-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screen capture guidelines
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Screen capture guidelines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#when-to-use-screen-captures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to use screen captures
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ui-element-terminology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UI element terminology
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UI element terminology">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nordic-specific-terminology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nordic-specific terminology
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documenting-menus-dialogs-and-wizards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documenting menus, dialogs, and wizards
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documenting menus, dialogs, and wizards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#menus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dialog-boxes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialog boxes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wizards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wizards
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="procedure-review.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Procedure review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="alternative-input-methods.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alternative input methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/tables.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../grammar/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grammar and parts of speech
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grammar and parts of speech
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/clauses.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clauses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/dangling-misplaced-modifiers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dangling and misplaced modifiers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/nouns-pronouns.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nouns and pronouns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/person.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Person
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/prepositions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prepositions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/sentence-structure.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sentence structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/verbs.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verbs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/ing-words.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Words ending in -ing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../numbers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Numbers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product-names.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product names
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/content-planning.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Content planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/design-planning.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/document-types.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Document types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/editorial-process.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Editorial process
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/legal-guidelines.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Legal guidelines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/final-publishing-review.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final publishing review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../punctuation/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Punctuation
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_10" id="__nav_10_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Punctuation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/apostrophes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apostrophes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/colons.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/commas.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Commas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/dashes-and-hyphens.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashes and hyphens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/ellipses.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ellipses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/parentheses.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parentheses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/exclamation-points.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exclamation points
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/periods.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Periods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/quotation-marks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quotation marks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/semicolons.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semicolons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/slashes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Slashes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/square-brackets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Square brackets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../trademarks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trademarks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../typographic-conventions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Typographic conventions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../units-of-measurement.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Units of measurement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../urls-web-addresses.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    URLs and web addresses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../writing-tips/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Writing tips
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_15" id="__nav_15_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Writing tips
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/accessibility.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accessibility tips
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/anthropomorphisms.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anthropomorphisms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/bias-free-communication.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bias-free communication
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/internationalization.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Internationalization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/jargon.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jargon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/online-context.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Online context
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/online-writing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Online writing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/reader-focused.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reader-focused writing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/redundancies.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Redundancies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/scannable-writing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scannable writing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../writing-tips/searchability.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Searchability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#markdown-gui-documentation-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Markdown GUI documentation guidelines
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Markdown GUI documentation guidelines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#identify-ui-elements-accurately" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identify UI elements accurately
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#format-ui-elements-consistently" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Format UI elements consistently
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#document-menu-paths-clearly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Document menu paths clearly
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#screen-capture-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screen capture guidelines
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Screen capture guidelines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#when-to-use-screen-captures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to use screen captures
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ui-element-terminology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UI element terminology
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UI element terminology">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nordic-specific-terminology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nordic-specific terminology
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documenting-menus-dialogs-and-wizards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documenting menus, dialogs, and wizards
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documenting menus, dialogs, and wizards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#menus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dialog-boxes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dialog boxes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wizards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wizards
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="describing-interactions-with-ui">Describing interactions with UI<a class="headerlink" href="#describing-interactions-with-ui" title="Permanent link">&para;</a></h1>
+<p>Customers interact with products using different input methods: keyboard, mouse, touch, voice, and more. So use generic verbs that work with any input method. Don't use input-specific verbs, such as <em>click</em> or <em>swipe</em>. Instead, use the verbs listed here.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Verb</strong></th>
+<th><strong>Use for</strong></th>
+<th><strong>Examples</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Open</strong></td>
+<td><ul><li>Apps and programs</li></ul><ul><li>Blades</li></ul><ul><li>File Explorer</li></ul><ul><li>Files and folders</li></ul><ul><li>Shortcut menus</li></ul><ul><li>Use for websites and webpages only when necessary to match the UI. Otherwise, use <em>go to</em>.</li></ul><ul><li>Don't use for commands and menus.</li></ul></td>
+<td><ul><li>Open Photos.</li></ul><ul><li>Open the Reader app.</li></ul><ul><li>Select <strong>Users + groups</strong> to open the blade.</li></ul><ul><li>Open the Filename file.</li></ul><ul><li>To open the document in Outline view, select <strong>View &gt; Outline</strong>.</li></ul><ul><li>In WindowName, open the shortcut menu for ItemName.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Close</strong></td>
+<td><ul><li>Apps and programs</li></ul><ul><li>Blades</li></ul><ul><li>Dialog boxes</li></ul><ul><li>Files and folders</li></ul><ul><li>Notifications and alerts</li></ul><ul><li>Tabs</li></ul><ul><li>The action a program or app takes when it encounters a problem and can't continue. (Don't confuse with <em>stop responding</em>.)</li></ul></td>
+<td><ul><li>Close the Alarms app.</li></ul><ul><li>Close Excel.</li></ul><ul><li>Close the blade.</li></ul><ul><li>Close the <strong>Users + groups</strong> blade.</li></ul><ul><li>Save and close the document.</li></ul><ul><li>Closing Excel also closes all open worksheets.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Leave</strong></td>
+<td>Websites and webpages</td>
+<td>Select <strong>Submit</strong> to complete the survey and leave this page.</td>
+</tr>
+<tr>
+<td><strong>Go to</strong></td>
+<td><ul><li>Opening a menu.</li></ul><ul><li>Going to a tab or another particular place in the UI.</li></ul><ul><li>Going to a website or webpage.</li></ul><ul><li>It's OK to use <em>On the</em> <strong>XXX</strong> <em>tab</em> if the instruction is brief and continues immediately.</li></ul></td>
+<td><ul><li>Go to Search <img src="media/describing-interactions-with-ui/721771267.png"/> , enter the word <strong>settings</strong>, and then select <strong>Settings</strong>.</li></ul><ul><li>Go to <strong>File</strong>, and then select <strong>Close</strong>.</li></ul><ul><li>On the ribbon, go to the <strong>Design</strong> tab.</li></ul><ul><li>Go to the <strong>Deploy</strong> tab. In the <strong>Configuration</strong> list …</li></ul><ul><li>On the <strong>Deploy</strong> tab, in the <strong>Configuration</strong> list …</li></ul><ul><li>Go to Example.com to register.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Select</strong></td>
+<td>Instructing the customer to select a specific item:<br/><ul><li>Selecting an option, such as a button.</li></ul><ul><li>Selecting a check box.</li></ul><ul><li>Selecting a value from a list box.</li></ul><ul><li>Selecting link text to go to a link.</li></ul><ul><li>Selecting an item on a menu or shortcut menu.</li></ul><ul><li>Selecting an item from a gallery.</li></ul><ul><li>Selecting keys and keyboard shortcuts. (Document keyboard shortcuts only if they're the most likely way the customer will accomplish a task or as an alternative input method, usually in a separate keyboard shortcuts article.)</li></ul></td>
+<td><ul><li>Select the <strong>Modify</strong> button.</li></ul><ul><li>For <strong>Alignment</strong>, select <strong>Left</strong>.</li></ul><ul><li>Select the text, open the shortcut menu, and then select <strong>Font</strong>.</li></ul><ul><li>Select <strong>Open in new tab</strong>.</li></ul><ul><li>Select the <strong>LinkName</strong> link.</li></ul><ul><li>Select <strong>F5</strong>.</li></ul><ul><li>Select <strong>Shift+Enter</strong>.</li></ul><ul><li>Select <strong>Ctrl+Alt+Delete</strong>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Select and hold, select and hold (or right-click)</strong></td>
+<td>Use to describe pressing and holding an element in the UI. It's OK to use <em>right-click</em> with <em>select and hold</em> when the instruction isn't specific to touch devices.</td>
+<td><ul><li>To flag a message that you want to deal with later, select and hold it, and then select <strong>Set flag</strong>.</li></ul><ul><li>Select and hold (or right-click) the Windows taskbar, and then select <strong>Cascade windows</strong>.</li></ul><ul><li>Select and hold (or right-click) the <strong>Start</strong> <img src="media/describing-interactions-with-ui/967781121.png"/> button, and then select <strong>Device Manager</strong>.</li></ul></td>
+</tr>
+<tr>
+<td><strong>&gt;</strong></td>
+<td>Use a greater-than symbol (&gt;) to separate sequential steps. Only use this approach when there's a clear and obvious path through the UI and the selection method is the same for each step. For example, don't mix things that require opening, selecting, and choosing. Don't bold the greater-than symbol. Include a space before and after the symbol.</td>
+<td>Select <strong>Accounts &gt; Other accounts &gt; Add an account</strong>.</td>
+</tr>
+<tr>
+<td><strong>Clear</strong></td>
+<td>Clearing the selection from a check box.</td>
+<td>Clear the <strong>Header row</strong> check box.</td>
+</tr>
+<tr>
+<td><strong>Choose</strong></td>
+<td>Choosing an option based on the customer's preference or desired outcome.</td>
+<td>On the <strong>Font</strong> tab, choose the effects you want.</td>
+</tr>
+<tr>
+<td><strong>Switch, turn on, turn off</strong></td>
+<td>Turning a toggle key or toggle switch on or off.</td>
+<td><ul><li>Use the <strong>Caps lock</strong> key to switch from typing capital letters to typing lowercase letters.</li></ul><ul><li>To switch between Normal, Outline, and Slide Sorter views, use the buttons on the <strong>View</strong> tab.</li></ul><ul><li>To make text and apps easier to see, turn on the toggle under <strong>Turn on high contrast</strong>.</li></ul><ul><li>To keep all applied filters, turn on the <strong>Pass all filters</strong> toggle.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Enter</strong></td>
+<td>Instructing the customer to type or otherwise insert a value or to type/select a value in a combo box.</td>
+<td><ul><li>In the search box, enter…</li></ul><ul><li>In the <strong>Tab stop position</strong> box, enter the location where you want to set the new tab.</li></ul><ul><li>In the <strong>Deployment script name</strong> box, enter a name for this script.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Move, drag</strong></td>
+<td>Moving anything from one place to another by dragging, cutting and pasting, or another method. Use for tiles and any open window (including apps, dialog boxes, files, and blades). Use <em>move through</em> to describe moving around on a page, through screens/pages in an app, or up, down, right, and left in a UI.</td>
+<td><ul><li>Drag the Filename file to the Foldername folder.</li></ul><ul><li>Move the tile to the new section.</li></ul><ul><li>Drag the Snipping Tool out of the way if necessary, and then select the area you want to capture.</li></ul><ul><li>If the <strong>Apply Styles</strong> task pane is in your way, just move it.</li></ul></td>
+</tr>
+<tr>
+<td><strong>Zoom, zoom in, zoom out</strong></td>
+<td>Use <em>zoom,</em> <em>zoom in,</em> and <em>zoom out</em> to refer to changing the magnification of the screen or window.</td>
+<td><ul><li>Zoom in to see more details on the map.</li></ul><ul><li>Zoom out to see a larger geographic area on the map.</li></ul><ul><li>Zoom in or out to see more or less detail.</li></ul></td>
+</tr>
+</tbody>
+</table>
+<h2 id="markdown-gui-documentation-guidelines">Markdown GUI documentation guidelines<a class="headerlink" href="#markdown-gui-documentation-guidelines" title="Permanent link">&para;</a></h2>
+<p>When documenting graphical user interfaces, follow these principles to create clear, consistent instructions.</p>
+<h3 id="identify-ui-elements-accurately">Identify UI elements accurately<a class="headerlink" href="#identify-ui-elements-accurately" title="Permanent link">&para;</a></h3>
+<p>Use the exact text or label as it appears in the interface. Match capitalization and punctuation.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Button says "Add Device" → Write: Click <strong>Add Device</strong></li>
+<li>Tab says "Configuration" → Write: On the <strong>Configuration</strong> tab</li>
+<li>Field labeled "Device Name:" → Write: In the <strong>Device Name</strong> field</li>
+</ul>
+<h3 id="format-ui-elements-consistently">Format UI elements consistently<a class="headerlink" href="#format-ui-elements-consistently" title="Permanent link">&para;</a></h3>
+<p>Use consistent formatting to help users quickly identify UI elements.</p>
+<p><strong>Bold for clickable elements:</strong></p>
+<ul>
+<li><strong>Buttons:</strong> Click <strong>Save</strong></li>
+<li><strong>Menus:</strong> On the <strong>File</strong> menu</li>
+<li><strong>Tabs:</strong> Select the <strong>Advanced</strong> tab</li>
+</ul>
+<p><strong>Italics for values:</strong></p>
+<ul>
+<li>Enter <em>MyDevice</em> in the <strong>Name</strong> field</li>
+</ul>
+<h3 id="document-menu-paths-clearly">Document menu paths clearly<a class="headerlink" href="#document-menu-paths-clearly" title="Permanent link">&para;</a></h3>
+<p>Use the greater-than symbol (&gt;) to show menu navigation paths.</p>
+<p><strong>Format:</strong> Menu &gt; Submenu &gt; Command</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Select <strong>File</strong> &gt; <strong>Open</strong> &gt; <strong>Project</strong></li>
+<li>Go to <strong>Tools</strong> &gt; <strong>Options</strong> &gt; <strong>Advanced</strong></li>
+</ul>
+<h2 id="screen-capture-guidelines">Screen capture guidelines<a class="headerlink" href="#screen-capture-guidelines" title="Permanent link">&para;</a></h2>
+<p>Use screen captures strategically to enhance documentation.</p>
+<h3 id="when-to-use-screen-captures">When to use screen captures<a class="headerlink" href="#when-to-use-screen-captures" title="Permanent link">&para;</a></h3>
+<p><strong>Use for:</strong></p>
+<ul>
+<li>Complex UIs difficult to describe</li>
+<li>Showing exact location of UI elements</li>
+<li>Illustrating Before/After states</li>
+</ul>
+<p><strong>Don't use for:</strong></p>
+<ul>
+<li>Simple actions ("Click <strong>OK</strong>")</li>
+<li>UIs that change frequently</li>
+</ul>
+<h2 id="ui-element-terminology">UI element terminology<a class="headerlink" href="#ui-element-terminology" title="Permanent link">&para;</a></h2>
+<p>Use consistent terminology for UI elements.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Element Type</strong></th>
+<th><strong>Preferred Term</strong></th>
+<th><strong>Examples</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Push button</td>
+<td>button</td>
+<td>Click the <strong>Add</strong> button</td>
+</tr>
+<tr>
+<td>Toggle button</td>
+<td>toggle, switch</td>
+<td>Turn on the <strong>Enable BLE</strong> toggle</td>
+</tr>
+<tr>
+<td>Checkbox</td>
+<td>checkbox</td>
+<td>Select the <strong>Show advanced options</strong> checkbox</td>
+</tr>
+<tr>
+<td>Dropdown</td>
+<td>list, dropdown list</td>
+<td>From the <strong>Board</strong> list, select your board</td>
+</tr>
+<tr>
+<td>Text field</td>
+<td>field, text box</td>
+<td>In the <strong>Device Name</strong> field, enter a name</td>
+</tr>
+<tr>
+<td>Tab</td>
+<td>tab</td>
+<td>On the <strong>Configuration</strong> tab</td>
+</tr>
+<tr>
+<td>Menu</td>
+<td>menu</td>
+<td>From the <strong>File</strong> menu</td>
+</tr>
+<tr>
+<td>Dialog box</td>
+<td>dialog, dialog box</td>
+<td>The <strong>Settings</strong> dialog opens</td>
+</tr>
+<tr>
+<td>Window</td>
+<td>window</td>
+<td>Close the <strong>Device Manager</strong> window</td>
+</tr>
+</tbody>
+</table>
+<h3 id="nordic-specific-terminology">Nordic-specific terminology<a class="headerlink" href="#nordic-specific-terminology" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Use "app" not "application": "Open the Programmer app"</li>
+<li>Use "DK" consistently: "Connect the nRF52840 DK"</li>
+<li>Use specific button names: "Press <strong>Button 1</strong>"</li>
+</ul>
+<h2 id="documenting-menus-dialogs-and-wizards">Documenting menus, dialogs, and wizards<a class="headerlink" href="#documenting-menus-dialogs-and-wizards" title="Permanent link">&para;</a></h2>
+<h3 id="menus">Menus<a class="headerlink" href="#menus" title="Permanent link">&para;</a></h3>
+<p><strong>Simple selections:</strong></p>
+<p>"Select <strong>File</strong> &gt; <strong>Save</strong>"</p>
+<h3 id="dialog-boxes">Dialog boxes<a class="headerlink" href="#dialog-boxes" title="Permanent link">&para;</a></h3>
+<p><strong>Opening:</strong></p>
+<p>"Click <strong>Settings</strong> to open the Settings dialog"</p>
+<p><strong>Steps within:</strong></p>
+<ol>
+<li>In the <strong>Device Name</strong> field, enter a name</li>
+<li>From the <strong>Connection Type</strong> list, select <strong>BLE</strong></li>
+<li>Click <strong>OK</strong></li>
+</ol>
+<h3 id="wizards">Wizards<a class="headerlink" href="#wizards" title="Permanent link">&para;</a></h3>
+<p>Format as numbered steps with each page as a step:</p>
+<ol>
+<li>On the <strong>Welcome</strong> page, click <strong>Next</strong></li>
+<li>On the <strong>Device Selection</strong> page, select your device and click <strong>Next</strong></li>
+<li>On the <strong>Configuration</strong> page, configure settings and click <strong>Finish</strong></li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="task-organization.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Task organization">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Task organization
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="procedure-review.html" class="md-footer__link md-footer__link--next" aria-label="Next: Procedure review">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Procedure review
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; Nordic Semiconductor 2026
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.code.annotate", "content.tooltips", "content.tabs.link", "navigation.footer", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

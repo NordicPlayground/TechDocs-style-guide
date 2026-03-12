@@ -1,0 +1,3534 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="bias-free-communication.html">
+      
+      
+        <link rel="next" href="jargon.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/nordic_logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
+    
+    
+      
+        <title>Internationalization - TechDocs Style Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="custom-blue" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#internationalization" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="TechDocs Style Guide" class="md-header__button md-logo" aria-label="TechDocs Style Guide" data-md-component="logo">
+      
+  <img src="../assets/nordic_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TechDocs Style Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Internationalization
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="custom-blue" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="custom-blue-dark" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="TechDocs Style Guide" class="md-nav__button md-logo" aria-label="TechDocs Style Guide" data-md-component="logo">
+      
+  <img src="../assets/nordic_logo.png" alt="logo">
+
+    </a>
+    TechDocs Style Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../acronyms.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acronyms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../capitalization.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capitalization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../content-structure/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Content structure
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Content structure
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/code-examples.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code examples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/cross-references.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cross-references
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/error-messages.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Error messages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/headings.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Headings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/illustrations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illustrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/links.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Links
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/lists.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/modular-writing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modular writing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/notes-cautions-tips.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notes, cautions, and warnings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/organization-schemes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organization schemes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_12" id="__nav_4_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Procedures and instructions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Procedures and instructions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../procedures-instructions/step-by-step-instructions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step-by-step instructions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../procedures-instructions/task-hierarchy.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Task hierarchy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../procedures-instructions/task-organization.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Task organization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../procedures-instructions/ui-interactions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UI interactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../procedures-instructions/procedure-review.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Procedure review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../procedures-instructions/alternative-input-methods.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alternative input methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-structure/tables.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../grammar/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grammar and parts of speech
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grammar and parts of speech
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/clauses.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clauses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/dangling-misplaced-modifiers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dangling and misplaced modifiers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/nouns-pronouns.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nouns and pronouns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/person.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Person
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/prepositions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prepositions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/sentence-structure.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sentence structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/verbs.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verbs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grammar/ing-words.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Words ending in -ing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../numbers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Numbers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product-names.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product names
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/content-planning.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Content planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/design-planning.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/document-types.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Document types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/editorial-process.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Editorial process
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/legal-guidelines.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Legal guidelines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planning/final-publishing-review.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final publishing review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../punctuation/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Punctuation
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_10" id="__nav_10_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Punctuation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/apostrophes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apostrophes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/colons.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Colons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/commas.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Commas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/dashes-and-hyphens.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashes and hyphens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/ellipses.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ellipses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/parentheses.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parentheses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/exclamation-points.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exclamation points
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/periods.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Periods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/quotation-marks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quotation marks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/semicolons.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semicolons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/slashes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Slashes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../punctuation/square-brackets.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Square brackets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../trademarks.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trademarks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../typographic-conventions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Typographic conventions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../units-of-measurement.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Units of measurement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../urls-web-addresses.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    URLs and web addresses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Writing tips
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_15" id="__nav_15_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Writing tips
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="accessibility.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accessibility tips
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anthropomorphisms.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anthropomorphisms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="bias-free-communication.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bias-free communication
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Internationalization
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="internationalization.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Internationalization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#writing-for-translation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing for translation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing for translation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-simple-sentence-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use simple sentence structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-idioms-and-colloquialisms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid idioms and colloquialisms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-humor-and-cultural-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid humor and cultural references
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-slang-and-informal-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid slang and informal language
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-consistent-terminology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use consistent terminology
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locale-sensitive-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Locale-sensitive content
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Locale-sensitive content">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#date-and-time-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Date and time formats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Number formats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#units-of-measurement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Units of measurement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#currency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Currency
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#address-and-phone-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Address and phone formats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-for-non-native-english-speakers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing for non-native English speakers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing for non-native English speakers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-standard-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use standard vocabulary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-phrasal-verbs-when-possible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid phrasal verbs when possible
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-ambiguous-pronouns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid ambiguous pronouns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-negative-constructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid negative constructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cultural-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cultural considerations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cultural considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avoid-stereotypes-and-assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid stereotypes and assumptions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-inclusive-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use inclusive examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-directional-and-color-symbolism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid directional and color symbolism
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-content-for-localization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preparing content for localization
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparing content for localization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#separate-text-from-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Separate text from images
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allow-for-text-expansion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Allow for text expansion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-translatable-string-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use translatable string formats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#provide-context-for-translators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Provide context for translators
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="jargon.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jargon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="online-context.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Online context
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="online-writing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Online writing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="reader-focused.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reader-focused writing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="redundancies.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Redundancies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="scannable-writing.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scannable writing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="searchability.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Searchability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#writing-for-translation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing for translation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing for translation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-simple-sentence-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use simple sentence structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-idioms-and-colloquialisms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid idioms and colloquialisms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-humor-and-cultural-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid humor and cultural references
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-slang-and-informal-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid slang and informal language
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-consistent-terminology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use consistent terminology
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locale-sensitive-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Locale-sensitive content
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Locale-sensitive content">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#date-and-time-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Date and time formats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#number-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Number formats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#units-of-measurement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Units of measurement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#currency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Currency
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#address-and-phone-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Address and phone formats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-for-non-native-english-speakers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing for non-native English speakers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing for non-native English speakers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-standard-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use standard vocabulary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-phrasal-verbs-when-possible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid phrasal verbs when possible
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-ambiguous-pronouns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid ambiguous pronouns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-negative-constructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid negative constructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cultural-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cultural considerations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cultural considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avoid-stereotypes-and-assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid stereotypes and assumptions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-inclusive-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use inclusive examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avoid-directional-and-color-symbolism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avoid directional and color symbolism
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-content-for-localization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preparing content for localization
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparing content for localization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#separate-text-from-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Separate text from images
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allow-for-text-expansion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Allow for text expansion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-translatable-string-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use translatable string formats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#provide-context-for-translators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Provide context for translators
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="internationalization">Internationalization<a class="headerlink" href="#internationalization" title="Permanent link">&para;</a></h1>
+<p>Write documentation that can be easily translated and understood by a global audience. Nordic products are used worldwide, so content must work across cultures, languages, and locales.</p>
+<h2 id="writing-for-translation">Writing for translation<a class="headerlink" href="#writing-for-translation" title="Permanent link">&para;</a></h2>
+<h3 id="use-simple-sentence-structure">Use simple sentence structure<a class="headerlink" href="#use-simple-sentence-structure" title="Permanent link">&para;</a></h3>
+<p>Translators produce higher-quality translations when source sentences are clear and straightforward.</p>
+<ul>
+<li>Keep sentences under 25 words</li>
+<li>Use subject-verb-object order</li>
+<li>Avoid complex subordinate clause chains</li>
+<li>Use one idea per sentence</li>
+</ul>
+<h3 id="avoid-idioms-and-colloquialisms">Avoid idioms and colloquialisms<a class="headerlink" href="#avoid-idioms-and-colloquialisms" title="Permanent link">&para;</a></h3>
+<p>Idiomatic expressions don't translate literally and may be meaningless or offensive in other languages.</p>
+<p><strong>Avoid:</strong></p>
+<ul>
+<li>"Out of the box" → Use: "by default" or "without additional configuration"</li>
+<li>"Up and running" → Use: "operational" or "running"</li>
+<li>"Boils down to" → Use: "reduces to" or "essentially means"</li>
+<li>"At the end of the day" → Use: "ultimately" or remove entirely</li>
+<li>"Hit the ground running" → Use: "start immediately" or "begin productively"</li>
+<li>"Low-hanging fruit" → Use: "easily achievable improvements"</li>
+<li>"Under the hood" → Use: "internally" or "in the implementation"</li>
+<li>"Gotcha" → Use: "common pitfall" or "known issue"</li>
+<li>"Rule of thumb" → Use: "general guideline"</li>
+<li>"Heads up" → Use: "note" or "important"</li>
+</ul>
+<h3 id="avoid-humor-and-cultural-references">Avoid humor and cultural references<a class="headerlink" href="#avoid-humor-and-cultural-references" title="Permanent link">&para;</a></h3>
+<p>Humor relies on cultural context and rarely translates well. What seems lighthearted in one culture may confuse or offend in another.</p>
+<ul>
+<li>Don't use jokes or puns</li>
+<li>Don't reference pop culture, sports, or holidays</li>
+<li>Don't use culture-specific metaphors</li>
+<li>Don't use sarcasm or irony</li>
+</ul>
+<h3 id="avoid-slang-and-informal-language">Avoid slang and informal language<a class="headerlink" href="#avoid-slang-and-informal-language" title="Permanent link">&para;</a></h3>
+<p>Use standard, formal English that translators can work with reliably.</p>
+<p><strong>Avoid:</strong></p>
+<ul>
+<li>"gonna," "wanna," "kinda"</li>
+<li>"cool," "awesome," "nifty"</li>
+<li>"stuff," "things" (be specific)</li>
+<li>"a bunch of" → Use: "several" or specify the number</li>
+</ul>
+<h3 id="use-consistent-terminology">Use consistent terminology<a class="headerlink" href="#use-consistent-terminology" title="Permanent link">&para;</a></h3>
+<p>Use the same English term for the same concept throughout your documentation. Varying terminology creates confusion and inconsistency in translations.</p>
+<p><strong>Inconsistent (creates translation problems):</strong></p>
+<p>"Start the application. Launch the program. Run the software."</p>
+<p><strong>Consistent:</strong></p>
+<p>"Start the application. Start the application on the second device."</p>
+<p>When a term has been defined in the <a href="../glossary.html">Glossary</a>, use that term consistently.</p>
+<h2 id="locale-sensitive-content">Locale-sensitive content<a class="headerlink" href="#locale-sensitive-content" title="Permanent link">&para;</a></h2>
+<h3 id="date-and-time-formats">Date and time formats<a class="headerlink" href="#date-and-time-formats" title="Permanent link">&para;</a></h3>
+<p>Date formats vary by region. Use unambiguous formats or follow ISO 8601.</p>
+<p><strong>Ambiguous:</strong></p>
+<p>"02/04/26" (February 4 or April 2?)</p>
+<p><strong>Unambiguous:</strong></p>
+<p>"2026-02-04" (ISO 8601)
+"February 4, 2026" (written out)</p>
+<h3 id="number-formats">Number formats<a class="headerlink" href="#number-formats" title="Permanent link">&para;</a></h3>
+<p>Decimal separators and thousands separators vary by locale.</p>
+<p><strong>Locale-dependent:</strong></p>
+<ul>
+<li>"1,000.50" (US/UK)</li>
+<li>"1.000,50" (Germany, Brazil)</li>
+<li>"1 000,50" (France, Sweden)</li>
+</ul>
+<p><strong>In documentation:</strong> Use the format standard for your primary audience and note the convention if there is potential for confusion. In code examples, always use the period as the decimal separator.</p>
+<h3 id="units-of-measurement">Units of measurement<a class="headerlink" href="#units-of-measurement" title="Permanent link">&para;</a></h3>
+<p>Use SI (metric) units as the primary measurement system. Include imperial equivalents in parentheses only when the audience expects them.</p>
+<p><strong>Example:</strong></p>
+<p>"The antenna is 30 mm long."</p>
+<p>Not: "The antenna is 1.18 inches long."</p>
+<p>For temperature, use Celsius in technical specifications:</p>
+<p>"Operating temperature range: -40 °C to 85 °C"</p>
+<h3 id="currency">Currency<a class="headerlink" href="#currency" title="Permanent link">&para;</a></h3>
+<p>Avoid currency references in technical documentation. When necessary, use ISO 4217 currency codes.</p>
+<p><strong>Example:</strong></p>
+<p>"The development kit costs approximately 45 USD."</p>
+<p>Not: "The development kit costs about $45."</p>
+<h3 id="address-and-phone-formats">Address and phone formats<a class="headerlink" href="#address-and-phone-formats" title="Permanent link">&para;</a></h3>
+<p>Don't assume a specific address or phone number format. If you must reference contact information, use a format appropriate for the region.</p>
+<h2 id="writing-for-non-native-english-speakers">Writing for non-native English speakers<a class="headerlink" href="#writing-for-non-native-english-speakers" title="Permanent link">&para;</a></h2>
+<p>Much of Nordic's documentation audience reads English as a second language. Write with these readers in mind.</p>
+<h3 id="use-standard-vocabulary">Use standard vocabulary<a class="headerlink" href="#use-standard-vocabulary" title="Permanent link">&para;</a></h3>
+<p>Prefer common English words over rare or literary alternatives.</p>
+<table>
+<thead>
+<tr>
+<th>Complex word</th>
+<th>Simpler alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Utilize</td>
+<td>Use</td>
+</tr>
+<tr>
+<td>Commence</td>
+<td>Start, begin</td>
+</tr>
+<tr>
+<td>Terminate</td>
+<td>End, stop</td>
+</tr>
+<tr>
+<td>Facilitate</td>
+<td>Help, enable</td>
+</tr>
+<tr>
+<td>Subsequently</td>
+<td>Then, after</td>
+</tr>
+<tr>
+<td>Aforementioned</td>
+<td>Previous, earlier</td>
+</tr>
+<tr>
+<td>Notwithstanding</td>
+<td>Despite, even though</td>
+</tr>
+</tbody>
+</table>
+<h3 id="avoid-phrasal-verbs-when-possible">Avoid phrasal verbs when possible<a class="headerlink" href="#avoid-phrasal-verbs-when-possible" title="Permanent link">&para;</a></h3>
+<p>Phrasal verbs (verb + particle combinations) are difficult for non-native speakers. See <a href="../grammar/verbs.html#phrasal-verbs">Phrasal verbs</a> for details.</p>
+<table>
+<thead>
+<tr>
+<th>Phrasal verb</th>
+<th>Alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Set up</td>
+<td>Configure, install</td>
+</tr>
+<tr>
+<td>Turn on</td>
+<td>Enable, activate</td>
+</tr>
+<tr>
+<td>Figure out</td>
+<td>Determine</td>
+</tr>
+<tr>
+<td>Come up with</td>
+<td>Create, develop</td>
+</tr>
+<tr>
+<td>Run into</td>
+<td>Encounter</td>
+</tr>
+</tbody>
+</table>
+<h3 id="avoid-ambiguous-pronouns">Avoid ambiguous pronouns<a class="headerlink" href="#avoid-ambiguous-pronouns" title="Permanent link">&para;</a></h3>
+<p>Pronouns like "it," "this," "that," and "they" can be ambiguous, especially for readers parsing complex sentences in a second language.</p>
+<p><strong>Ambiguous:</strong></p>
+<p>"Configure the device tree and the Kconfig file. It determines the hardware layout."
+(Does "it" refer to the device tree or the Kconfig file?)</p>
+<p><strong>Clear:</strong></p>
+<p>"Configure the device tree and the Kconfig file. The device tree determines the hardware layout."</p>
+<h3 id="avoid-negative-constructions">Avoid negative constructions<a class="headerlink" href="#avoid-negative-constructions" title="Permanent link">&para;</a></h3>
+<p>Positive statements are easier to translate and understand than negative ones. Double negatives are especially problematic.</p>
+<p><strong>Negative:</strong></p>
+<p>"The operation does not fail unless the buffer is not allocated."</p>
+<p><strong>Positive:</strong></p>
+<p>"The operation succeeds when the buffer is allocated."</p>
+<h2 id="cultural-considerations">Cultural considerations<a class="headerlink" href="#cultural-considerations" title="Permanent link">&para;</a></h2>
+<h3 id="avoid-stereotypes-and-assumptions">Avoid stereotypes and assumptions<a class="headerlink" href="#avoid-stereotypes-and-assumptions" title="Permanent link">&para;</a></h3>
+<p>Don't assume knowledge of specific cultural practices, holidays, educational systems, or social norms.</p>
+<h3 id="use-inclusive-examples">Use inclusive examples<a class="headerlink" href="#use-inclusive-examples" title="Permanent link">&para;</a></h3>
+<p>When examples include names, locations, or scenarios, use a variety that reflects a global audience.</p>
+<p><strong>Example names:</strong> Use names from diverse cultures. Avoid using only English-language names.</p>
+<p><strong>Example locations:</strong> Vary locations rather than defaulting to US or European cities.</p>
+<h3 id="avoid-directional-and-color-symbolism">Avoid directional and color symbolism<a class="headerlink" href="#avoid-directional-and-color-symbolism" title="Permanent link">&para;</a></h3>
+<p>Directional references (left-right, top-bottom) can have different cultural associations. Color symbolism varies widely across cultures (red means danger in some cultures, good fortune in others).</p>
+<p>In technical documentation, use color only to enhance meaning that is already communicated through text or symbols.</p>
+<h2 id="preparing-content-for-localization">Preparing content for localization<a class="headerlink" href="#preparing-content-for-localization" title="Permanent link">&para;</a></h2>
+<h3 id="separate-text-from-images">Separate text from images<a class="headerlink" href="#separate-text-from-images" title="Permanent link">&para;</a></h3>
+<p>Embed translatable text in the documentation source, not in images. Text embedded in images requires creating new images for each language.</p>
+<h3 id="allow-for-text-expansion">Allow for text expansion<a class="headerlink" href="#allow-for-text-expansion" title="Permanent link">&para;</a></h3>
+<p>Translated text is often 20-30% longer than English. Design layouts and UI strings with expansion in mind.</p>
+<h3 id="use-translatable-string-formats">Use translatable string formats<a class="headerlink" href="#use-translatable-string-formats" title="Permanent link">&para;</a></h3>
+<p>In code examples that include user-facing strings:</p>
+<div class="highlight"><pre><span></span><code><span class="n">LOG_INF</span><span class="p">(</span><span class="s">&quot;Connection established&quot;</span><span class="p">);</span>
+</code></pre></div>
+<p>Comment strings that require translation:</p>
+<div class="highlight"><pre><span></span><code><span class="cm">/* Translatable: displayed to user */</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">msg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Device ready&quot;</span><span class="p">;</span>
+</code></pre></div>
+<h3 id="provide-context-for-translators">Provide context for translators<a class="headerlink" href="#provide-context-for-translators" title="Permanent link">&para;</a></h3>
+<p>When a term has multiple meanings, add context to help translators choose the correct translation. For example, "port" can mean a network port, a hardware port, or porting software.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="bias-free-communication.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Bias-free communication">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Bias-free communication
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="jargon.html" class="md-footer__link md-footer__link--next" aria-label="Next: Jargon">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Jargon
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; Nordic Semiconductor 2026
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.code.annotate", "content.tooltips", "content.tabs.link", "navigation.footer", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
