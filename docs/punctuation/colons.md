@@ -37,7 +37,7 @@ Common colon misuse patterns include:
 
 | Problematic | Corrected |
 |-------------|-----------|
-| The supported protocols are: BLE, Thread, and Zigbee. | The supported protocols are BLE, Thread, and Zigbee. |
+| The supported protocols are: Bluetooth LE, Thread, and Zigbee. | The supported protocols are Bluetooth LE, Thread, and Zigbee. |
 | Features include: DMA, encryption, and power management. | Features include DMA, encryption, and power management. |
 
 **Why this fails**: The verb already connects the subject to what follows. Adding a colon duplicates this function.

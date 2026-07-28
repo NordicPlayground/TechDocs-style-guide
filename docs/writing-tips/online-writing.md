@@ -22,7 +22,7 @@ Include the terms readers are likely to search for, but weave them into natural 
 
 **Example:**
 
-"Configure BLE advertising parameters to control how the nRF52840 broadcasts its presence to nearby devices." (Naturally includes "BLE advertising parameters" and "nRF52840" as likely search terms.)
+"Configure Bluetooth LE advertising parameters to control how the nRF52840 broadcasts its presence to nearby devices." (Naturally includes "Bluetooth LE advertising parameters" and "nRF52840" as likely search terms.)
 
 ### Write descriptive page titles
 
@@ -36,7 +36,7 @@ Page titles appear in search results and browser tabs. Make them specific and de
 
 **Use:**
 
-* "BLE advertising configuration"
+* "Bluetooth LE advertising configuration"
 * "Getting started with the nRF Connect SDK"
 * "GPIO API reference"
 
@@ -95,11 +95,11 @@ Place the most important information at the beginning of the page, paragraph, an
 
 **Print style (builds to conclusion):**
 
-"Given the power constraints of battery-operated IoT devices, the importance of efficient protocol selection, and the range requirements of typical deployments, BLE is the recommended protocol for the nRF52840."
+"Given the power constraints of battery-operated IoT devices, the importance of efficient protocol selection, and the range requirements of typical deployments, Bluetooth LE is the recommended protocol for the nRF52840."
 
 **Online style (leads with conclusion):**
 
-"Use BLE as the primary protocol for battery-operated nRF52840 deployments. BLE provides the best balance of power efficiency, range, and data rate for IoT applications."
+"Use Bluetooth LE as the primary protocol for battery-operated nRF52840 deployments. Bluetooth LE provides the best balance of power efficiency, range, and data rate for IoT applications."
 
 ### Use meaningful link text
 

@@ -34,7 +34,7 @@ A tutorial teaches a concept or skill through a guided, hands-on exercise. Unlik
 * May take longer than a getting started guide
 * Assumes the reader has completed initial setup
 
-**Example:** "Building a BLE peripheral" — teaches BLE concepts while building a working application.
+**Example:** "Building a Bluetooth LE peripheral" — teaches Bluetooth LE concepts while building a working application.
 
 ### How-to guide
 
@@ -50,7 +50,7 @@ A how-to guide provides step-by-step instructions for accomplishing a specific t
 * May cover edge cases and alternatives
 * Includes troubleshooting for common problems
 
-**Example:** "How to configure BLE advertising parameters" — assumes the reader understands BLE and wants to adjust specific settings.
+**Example:** "How to configure Bluetooth LE advertising parameters" — assumes the reader understands Bluetooth LE and wants to adjust specific settings.
 
 ### Conceptual guide
 
@@ -66,7 +66,7 @@ A conceptual guide explains how something works, why it was designed that way, o
 * Does not include step-by-step procedures
 * Links to related how-to guides and references
 
-**Example:** "BLE advertising overview" — explains advertising modes, parameters, and trade-offs without prescribing configuration steps.
+**Example:** "Bluetooth LE advertising overview" — explains advertising modes, parameters, and trade-offs without prescribing configuration steps.
 
 ### Reference
 
@@ -128,12 +128,12 @@ Start each entry with a simple, concise sentence. Omit the leading action verb f
 
 **Preferred:**
 
-* "Support for nRF54L15 in the BLE controller."
+* "Support for nRF54L15 in the Bluetooth LE controller."
 * "An issue with UART flow control on nRF52840 (NCSDK-12345)."
 
 **Avoid:**
 
-* "Added support for nRF54L15 in the BLE controller." (redundant -- the "Added" category already conveys the action)
+* "Added support for nRF54L15 in the Bluetooth LE controller." (redundant -- the "Added" category already conveys the action)
 * "Fixed an issue with UART flow control." (the "Fixed" category already conveys the action)
 
 **Jira ticket references**
@@ -229,9 +229,9 @@ A migration guide helps users move from one version to another when there are br
 | Reader question | Document type |
 | --------------- | ------------- |
 | "I am new, where do I start?" | Getting started guide |
-| "How do I learn about BLE?" | Tutorial |
+| "How do I learn about Bluetooth LE?" | Tutorial |
 | "How do I change the advertising interval?" | How-to guide |
-| "How does the BLE stack work?" | Conceptual guide |
+| "How does the Bluetooth LE stack work?" | Conceptual guide |
 | "What parameters does `bt_le_adv_start()` accept?" | Reference |
 | "What changed in v2.5.0?" | Release notes |
 | "How do I update from v2.4.0 to v2.5.0?" | Migration guide |
@@ -280,7 +280,7 @@ The revision history reflects the main reasons for a document update: new featur
 | Version | Date | Description |
 | ------- | ---- | ----------- |
 | 1.2.0 | 2026-01-15 | Added nRF54L15 support. Updated GPIO configuration for nRF54L Series. |
-| 1.1.0 | 2025-10-01 | Added power profiling chapter. Updated BLE advertising examples for SDK v2.5.0. |
+| 1.1.0 | 2025-10-01 | Added power profiling chapter. Updated Bluetooth LE advertising examples for SDK v2.5.0. |
 | 1.0.1 | 2025-08-15 | Corrected pin assignments in Table 3. Editorial changes. |
 | 1.0.0 | 2025-06-01 | Initial release. |
 

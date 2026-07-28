@@ -89,13 +89,13 @@ Understand what users actually need to accomplish, not just what the feature can
 * Where do users commonly encounter problems?
 * What is the expected outcome?
 
-**Example analysis for "Configure BLE advertising":**
+**Example analysis for "Configure Bluetooth LE advertising":**
 
-* **User goal**: Make device discoverable to BLE central devices
-* **Prerequisites**: BLE stack initialized, device configured
+* **User goal**: Make device discoverable to Bluetooth LE central devices
+* **Prerequisites**: Bluetooth LE stack initialized, device configured
 * **Critical steps**: Set advertising parameters, load advertising data, start advertising
 * **Common issues**: Wrong advertising interval, missing advertising data
-* **Expected outcome**: Device appears in BLE scanner applications
+* **Expected outcome**: Device appears in Bluetooth LE scanner applications
 
 ### Provide only necessary task information
 
@@ -116,11 +116,11 @@ Include information users need to complete the task, but avoid unnecessary detai
 
 **Avoid:**
 
-* "The nRF52840 includes a powerful 64 MHz Arm Cortex-M4 processor with floating point unit, which provides excellent performance for BLE applications. The BLE controller supports all BLE 5.3 features including extended advertising, 2M PHY, and long range. To configure advertising..." [Too much background]
+* "The nRF52840 includes a powerful 64 MHz Arm Cortex-M4 processor with floating point unit, which provides excellent performance for Bluetooth LE applications. The Bluetooth LE controller supports all Bluetooth® Core 5.3 features including extended advertising, 2M PHY, and long range. To configure advertising..." [Too much background]
 
 **Use:**
 
-* "To make your nRF52840 device discoverable, configure BLE advertising:
+* "To make your nRF52840 device discoverable, configure Bluetooth LE advertising:
 
 ### Including prerequisites
 
@@ -132,13 +132,13 @@ Start procedures with a brief introduction that includes prerequisites and conte
 
 **Example:**
 
-"This procedure configures BLE advertising for the nRF52840. Before you begin, ensure that:
+"This procedure configures Bluetooth LE advertising for the nRF52840. Before you begin, ensure that:
 
 * The nRF Connect SDK is installed and configured
-* Your application initializes the BLE stack
+* Your application initializes the Bluetooth LE stack
 * You have determined your advertising interval and data
 
-After completing this procedure, your device will be discoverable by BLE central devices."
+After completing this procedure, your device will be discoverable by Bluetooth LE central devices."
 
 #### First step as prerequisite
 
@@ -146,7 +146,7 @@ For simple prerequisites, include them as the first step.
 
 **Example:**
 
-1. Ensure the BLE stack is initialized
+1. Ensure the Bluetooth LE stack is initialized
 2. Define your advertising data structure
 3. Configure advertising parameters
 4. Start advertising
@@ -157,7 +157,7 @@ For complex prerequisites, link to other procedures rather than repeating them.
 
 **Example:**
 
-"This procedure assumes you have completed [Setting up the nRF Connect SDK](#) and [Initializing the BLE stack](#)."
+"This procedure assumes you have completed [Setting up the nRF Connect SDK](#) and [Initializing the Bluetooth LE stack](#)."
 
 ### Providing examples
 
@@ -241,7 +241,7 @@ Keep procedures to 10 steps or fewer. If a task requires more steps, break it in
 
 **Example - Instead of 15 steps:**
 
-Main procedure: "Configuring BLE advertising"
+Main procedure: "Configuring Bluetooth LE advertising"
 1. Prepare advertising data (links to sub-procedure)
 2. Set advertising parameters (links to sub-procedure)
 3. Start advertising (2-3 steps)
@@ -270,7 +270,7 @@ When a step needs clarification, add explanation in a separate paragraph below t
 
 1. Set `CONFIG_BT_DEVICE_NAME` in `prj.conf` to configure your device's Bluetooth name.
 
-   The device name appears when central devices scan for BLE peripherals. Use a descriptive name that helps users identify your device. Keep names under 20 characters for compatibility with all platforms.
+   The device name appears when central devices scan for Bluetooth LE peripherals. Use a descriptive name that helps users identify your device. Keep names under 20 characters for compatibility with all platforms.
 
 #### Include all required information
 
@@ -333,7 +333,7 @@ Each procedure should be independent. Do not embed one complete procedure inside
 
 **Avoid:**
 
-**To configure BLE advertising:**
+**To configure Bluetooth LE advertising:**
 1. Set advertising parameters
 2. Configure advertising data:
    **To configure advertising data:**
@@ -344,7 +344,7 @@ Each procedure should be independent. Do not embed one complete procedure inside
 
 **Use:**
 
-**To configure BLE advertising:**
+**To configure Bluetooth LE advertising:**
 1. Set advertising parameters (see [Configure advertising parameters](#))
 2. Configure advertising data (see [Configure advertising data](#))
 3. Start advertising
@@ -360,13 +360,13 @@ Use task-oriented headings that start with "To" or follow a "How to" pattern.
 **Use:**
 
 * "To configure GPIO pins for button input"
-* "To enable BLE advertising"
+* "To enable Bluetooth LE advertising"
 * "To flash firmware to the nRF52840 DK"
 
 **Or use action-oriented headings:**
 
 * "Configure GPIO pins for button input"
-* "Enable BLE advertising"
+* "Enable Bluetooth LE advertising"
 * "Flash firmware to the nRF52840 DK"
 
 **Avoid question format:**
@@ -606,7 +606,7 @@ For GUI procedures, describe the action and the UI element.
 **Use:**
 
 * "Click **File** > **Open**"
-* "In the **Configuration** panel, select **Enable BLE**"
+* "In the **Configuration** panel, select **Enable Bluetooth LE**"
 * "Clear the **Use default settings** checkbox"
 
 **Provide location context when needed:**
@@ -657,7 +657,7 @@ Make the condition clear at the start of the step.
 
 **Example:**
 
-4. If your application uses BLE bonds, set `CONFIG_BT_SETTINGS=y` to enable settings storage.
+4. If your application uses Bluetooth LE bonds, set `CONFIG_BT_SETTINGS=y` to enable settings storage.
 
 ##### Consider separate procedures for complex branching
 

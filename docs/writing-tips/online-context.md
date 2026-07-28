@@ -16,11 +16,11 @@ Each page should answer three questions within the first few lines:
 
 **Example:**
 
-"# Configure BLE advertising
+"# Configure Bluetooth LE advertising
 
-Set the advertising interval, TX power, and payload for your BLE peripheral application.
+Set the advertising interval, TX power, and payload for your Bluetooth LE peripheral application.
 
-**Prerequisites:** Complete [Getting started with BLE](#) before configuring advertising parameters."
+**Prerequisites:** Complete [Getting started with Bluetooth LE](#) before configuring advertising parameters."
 
 ### Avoid assuming prior reading
 
@@ -35,7 +35,7 @@ Do not use phrases that assume the reader has been following along:
 
 **Use:**
 
-* "As described in [BLE overview](#)..."
+* "As described in [Bluetooth LE overview](#)..."
 * "After completing [Initial setup](#)..."
 * Link to the specific prerequisite topic
 
@@ -45,7 +45,7 @@ Even when a page focuses on a narrow topic, include enough context for readers t
 
 **Example introduction:**
 
-"The nRF Connect SDK uses Kconfig to manage build-time configuration options. This page describes BLE-specific Kconfig options. For general Kconfig usage, see [Kconfig overview](#)."
+"The nRF Connect SDK uses Kconfig to manage build-time configuration options. This page describes Bluetooth LE-specific Kconfig options. For general Kconfig usage, see [Kconfig overview](#)."
 
 ## Information orientation
 
@@ -93,7 +93,7 @@ Use the same term for the same concept everywhere. Do not call it "development k
 
 ### Use consistent structure
 
-Apply the same patterns to similar content. If one BLE configuration page uses "Overview → Configuration → Example → Reference," all BLE configuration pages should follow the same structure.
+Apply the same patterns to similar content. If one Bluetooth LE configuration page uses "Overview → Configuration → Example → Reference," all Bluetooth LE configuration pages should follow the same structure.
 
 ### Cross-reference generously
 
@@ -101,7 +101,7 @@ Connect related topics with cross-references. This compensates for the non-linea
 
 **At the beginning (prerequisites):**
 
-"This guide assumes familiarity with [BLE concepts](#)."
+"This guide assumes familiarity with [Bluetooth LE concepts](#)."
 
 **In the body (related concepts):**
 
@@ -111,7 +111,7 @@ Connect related topics with cross-references. This compensates for the non-linea
 
 "## Next steps
 
-* [Test BLE connections](#)
+* [Test Bluetooth LE connections](#)
 * [Optimize power consumption](#)"
 
 ### Provide navigation landmarks
@@ -156,11 +156,11 @@ In online writing, it is acceptable to repeat the subject noun rather than using
 
 **Print style (pronouns):**
 
-"The nRF52840 supports BLE 5.3. It can advertise on coded PHY."
+"The nRF52840 supports Bluetooth® Core 5.3. It can advertise on coded PHY."
 
 **Online style (clear antecedent):**
 
-"The nRF52840 supports BLE 5.3. The nRF52840 can advertise on coded PHY."
+"The nRF52840 supports Bluetooth® Core 5.3. The nRF52840 can advertise on coded PHY."
 
 Use judgment: repeat the noun when a reader scanning individual paragraphs might lose context, but do not repeat excessively within a paragraph.
 

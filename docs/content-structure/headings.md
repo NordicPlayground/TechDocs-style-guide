@@ -60,7 +60,7 @@ Use either the full term or the acronym in headings, not both:
 
 | Cluttered | Clean |
 |-----------|-------|
-| Bluetooth Low Energy (BLE) Configuration | Bluetooth Low Energy configuration |
+| Bluetooth Low Energy (Bluetooth LE) Configuration | Bluetooth Low Energy configuration |
 | Using the UART (Universal Asynchronous Receiver/Transmitter) | Using the UART |
 
 Define the acronym in the body text immediately following the heading.

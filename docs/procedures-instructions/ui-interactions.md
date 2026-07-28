@@ -81,7 +81,7 @@ Use consistent terminology for UI elements.
 | **Element Type** | **Preferred Term** | **Examples** |
 | ---------------- | ------------------ | ------------ |
 | Push button | button | Click the **Add** button |
-| Toggle button | toggle, switch | Turn on the **Enable BLE** toggle |
+| Toggle button | toggle, switch | Turn on the **Enable Bluetooth LE** toggle |
 | Checkbox | checkbox | Select the **Show advanced options** checkbox |
 | Dropdown | list, dropdown list | From the **Board** list, select your board |
 | Text field | field, text box | In the **Device Name** field, enter a name |
@@ -113,7 +113,7 @@ Use consistent terminology for UI elements.
 **Steps within:**
 
 1. In the **Device Name** field, enter a name
-2. From the **Connection Type** list, select **BLE**
+2. From the **Connection Type** list, select **Bluetooth LE**
 3. Click **OK**
 
 ### Wizards

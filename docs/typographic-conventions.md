@@ -38,7 +38,7 @@ For example: REQUEST_AND_END action
 
     ALL CAPS
 
-## BLE enumerations
+## Bluetooth LE enumerations
 
 Words connected using underscore. These should link to their definition. In RST, if that is not possible use `code`.
 

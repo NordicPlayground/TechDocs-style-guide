@@ -65,8 +65,8 @@ Do not use Latin abbreviations in documentation. They are unfamiliar to many rea
 
 **Example:**
 
-* **Avoid:** "The SDK supports multiple protocols, e.g., BLE, Thread, etc."
-* **Use:** "The SDK supports multiple protocols, such as BLE, Thread, and Zigbee."
+* **Avoid:** "The SDK supports multiple protocols, e.g., Bluetooth LE, Thread, etc."
+* **Use:** "The SDK supports multiple protocols, such as Bluetooth LE, Thread, and Zigbee."
 
 ## Prefer simple words
 

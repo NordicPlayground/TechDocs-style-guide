@@ -20,8 +20,8 @@ Organize content in alphabetical order when readers know the exact name of what 
 A Kconfig reference listing all configuration options alphabetically:
 
 * `CONFIG_BT` - Enable Bluetooth subsystem
-* `CONFIG_BT_CENTRAL` - Enable BLE central role
-* `CONFIG_BT_PERIPHERAL` - Enable BLE peripheral role
+* `CONFIG_BT_CENTRAL` - Enable Bluetooth LE central role
+* `CONFIG_BT_PERIPHERAL` - Enable Bluetooth LE peripheral role
 * `CONFIG_GPIO` - Enable GPIO driver
 
 **Limitation:** Alphabetical order assumes readers know the correct term. It fails when readers search by concept rather than name.
@@ -103,8 +103,8 @@ Organize content from simple to complex, building on previously introduced conce
 **Example:**
 
 1. Beginner: Blink an LED
-2. Intermediate: BLE beacon application
-3. Advanced: BLE mesh network with OTA updates
+2. Intermediate: Bluetooth LE beacon application
+3. Advanced: Bluetooth LE mesh network with OTA updates
 
 ### By audience
 
@@ -146,7 +146,7 @@ Choose a primary scheme for your top-level structure and secondary schemes withi
 **Example:**
 
 * **Primary (conceptual):** Bluetooth Low Energy, Thread, Zigbee
-* **Secondary (task-based):** Within BLE: Getting started, Configuration, Troubleshooting
+* **Secondary (task-based):** Within Bluetooth LE: Getting started, Configuration, Troubleshooting
 * **Tertiary (alphabetical):** Within Configuration: API reference sorted alphabetically
 
 ### Navigation support

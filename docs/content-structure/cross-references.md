@@ -89,9 +89,9 @@ Repeating the same 10-step installation procedure in every tutorial.
 ```
 ## Related topics
 
-* [BLE advertising configuration](#)
+* [Bluetooth LE advertising configuration](#)
 * [Connection parameters](#)
-* [BLE security](#)
+* [Bluetooth LE security](#)
 ```
 
 ## When to use cross-references
@@ -128,7 +128,7 @@ Do not use spatial references like "above," "below," "preceding," or "following"
 
 **Use:**
 
-* "As described in [BLE connection setup](#)..."
+* "As described in [Bluetooth LE connection setup](#)..."
 * "Table 1 lists the supported peripherals"
 * "[GPIO configuration](#) describes the pin assignments"
 * "The following code example demonstrates advertising initialization:" (acceptable when the example immediately follows)
@@ -162,7 +162,7 @@ For sequential content (tutorials, multi-step guides), use "previous" and "next"
 **Acceptable:**
 
 * "In the [previous tutorial](#), you set up the development environment."
-* "In the [next section](#), you will configure BLE advertising."
+* "In the [next section](#), you will configure Bluetooth LE advertising."
 
 **Avoid for non-sequential content:**
 

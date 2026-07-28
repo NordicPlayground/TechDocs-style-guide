@@ -13,7 +13,7 @@ Decide between inline and vertical lists based on item count and complexity:
 | Item characteristics | Format | Example |
 |---------------------|--------|---------|
 | Four or fewer single-word items of equal weight | Inline with commas | The SDK supports , Thread, Zigbee, and Matter. |
-| Five or more items | Vertical list | The SDK supports:</br>• BLE</br>• Thread</br>• Zigbee</br>• Matter</br>• Proprietary protocols |
+| Five or more items | Vertical list | The SDK supports:</br>• Bluetooth LE</br>• Thread</br>• Zigbee</br>• Matter</br>• Proprietary protocols |
 | Any multi-word items | Vertical list | Configure these parameters:</br>• TX power level</br>• Channel frequency</br>• Modulation scheme |
 | Items containing links | Vertical list | See these guides:</br>• [Getting Started]</br>• [API Reference] |
 

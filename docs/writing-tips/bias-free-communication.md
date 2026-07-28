@@ -156,7 +156,7 @@ Balance helpful explanation with respect for your readers. Do not insult their i
 For beginners or when a concept is genuinely specialized, provide explanations without apology:
 
 * "The device tree describes hardware configuration. Each node in the tree represents a hardware component"
-* "BLE (Bluetooth Low Energy) uses advertising packets to announce device presence"
+* "Bluetooth LE (Bluetooth Low Energy) uses advertising packets to announce device presence"
 
 ### Examples of condescending vs. respectful language
 

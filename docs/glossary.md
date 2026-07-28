@@ -173,7 +173,7 @@ Follow consistent alphabetization rules for ease of navigation.
 * Place the acronym entry near the spelled-out entry
 
 Example order:
-* BLE (Bluetooth Low Energy)
+* Bluetooth LE (Bluetooth Low Energy)
 * Bluetooth Low Energy
 * Bluetooth wireless technology
 
@@ -308,7 +308,9 @@ Terms in the list that appear in <span style="color:red">red</span> are prohibit
 | bi- (prefix) | **Spelling:** Usually no hyphen after the prefix bi-. </br>**Examples:** bidirectional, bipolar (source: [Merriam-Webster](http://www.merriam-webster.com/) [and Hyphenation](punctuation/dashes-and-hyphens.md)) |
 | bit</br>(hyphenation of numerals + units) | **Examples**: a *16-bit* address; a *10 kΩ* resistor</br>For rules, see [Hyphenation](punctuation/dashes-and-hyphens.md). |
 | to blink (v.) | Use when referring to LED's. </br>**Example:** *A blinking LED*. (**Prohibited:** to flash); to blink smoothly (Avoid: to softblink) |
+| Bluetooth® | For communicating general support for Bluetooth® technology.<br/><br/>For qualification-related uses, see Bluetooth® Core below.<br/><br/><span style="color:red">Prohibited:</span> This application has been qualified against Bluetooth® 5.0.<br/><br/>Sources: https://www.bluetooth.com/communicating-supported-bluetooth-functionality/ and [Bluetooth brand guide, March 2025](https://www.bluetooth.com/marketing-branding/brand-best-practices-guidelines) |
 | BLE | **Status:** <span style="color:red">Prohibited.</span> </br>Use: Bluetooth Low Energy &lt;noun&gt;. (Source: [Bluetooth brand guide, July 2018](https://www.bluetooth.com/marketing-branding/brand-best-practices-guidelines)) |
+| Bluetooth® Core | For communicating about qualification-related topics.<br/><br/>Example: This application has been qualified against Bluetooth® Core 5.1.<br/><br/>Sources: https://www.bluetooth.com/communicating-supported-bluetooth-functionality/ and [Bluetooth brand guide, March 2025](https://www.bluetooth.com/marketing-branding/brand-best-practices-guidelines) |
 | *Bluetooth®* Host | **Example:** This stack is split into two core components: the Bluetooth Host and the Bluetooth LE Controller. </br> **Prohibited:** <span style="color:red">BLE Host, Bluetooth LE Host</span> |
 | *Bluetooth®* high speed technology (n.) | **Example:** The device is using *Bluetooth®* high speed technology. (Spelling source: [Bluetooth brand guide](https://www.bluetooth.com/marketing-branding/brand-best-practices-guidelines))</br>**Note:** Use trademark at first occurrence (from keydef) |
 | *Bluetooth®* Low Energy (n.)</br>*Bluetooth®* LE | **Usage:** This is the standard protocol term for engineering purposes, that is, use 'Bluetooth Low Energy' when talking about the protocol and the technology. </br>**Prohibited:** <span style="color:red">BLE</span>. (Spelling source: [Bluetooth Brand Guidelines](https://www.bluetooth.com/marketing-branding/brand-best-practices-guidelines))</br></br>For example, given we are providing the protocol and that is what the SDS describes, we should continue to use “Bluetooth Low Energy” with the only exception that the front page – product summary – may say the SoftDevice is suitable for Bluetooth Smart products.</br></br>**Note:** Use trademark at first occurrence (from keydef)</br>**Note:** *Bluetooth®* LE is acceptable. **Prohibited:** BLE |

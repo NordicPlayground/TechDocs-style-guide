@@ -44,7 +44,7 @@ Link from code examples to the relevant API documentation.
 
 **Example:**
 
-"The following code initializes BLE advertising. For details on advertising parameters, see the [Bluetooth advertising API reference](#)."
+"The following code initializes Bluetooth LE advertising. For details on advertising parameters, see the [Bluetooth advertising API reference](#)."
 
 ### Glossary terms
 
@@ -146,7 +146,7 @@ Group related links at the end of a topic under a "Related topics" or "Next step
 ```
 ## Next steps
 
-* [Configure BLE advertising](#)
+* [Configure Bluetooth LE advertising](#)
 * [Set up scanning](#)
 * [Establish a connection](#)
 ```
@@ -176,7 +176,7 @@ Link text should tell readers where the link leads without requiring them to rea
 
 * "[Set up the nRF Connect SDK](#)"
 * "[Configuration reference](#)"
-* "[BLE advertising API reference](#)"
+* "[Bluetooth LE advertising API reference](#)"
 
 ### Weave link text into sentence structure
 
@@ -184,11 +184,11 @@ Links should fit naturally into the sentence. The sentence should be grammatical
 
 **Avoid:**
 
-"To learn about BLE, [click here](#)."
+"To learn about Bluetooth LE, [click here](#)."
 
 **Use:**
 
-"Learn about [BLE advertising parameters](#) before configuring your device."
+"Learn about [Bluetooth LE advertising parameters](#) before configuring your device."
 
 ### Choose key words or phrases for link text
 
@@ -232,15 +232,15 @@ Use distinctive, descriptive text for each link on a page. Avoid using the same 
 
 **Use:**
 
-* "[BLE documentation](#)" ... "[Thread documentation](#)" ... "[Zigbee documentation](#)"
+* "[Bluetooth LE documentation](#)" ... "[Thread documentation](#)" ... "[Zigbee documentation](#)"
 
 ### Match link text to destination titles
 
 Link text should closely match the title or heading of the destination page. This helps readers confirm they've arrived at the right location.
 
-**Destination page title:** "Configuring BLE Advertising Parameters"
+**Destination page title:** "Configuring Bluetooth LE Advertising Parameters"
 
-**Good link text:** "Configure [BLE advertising parameters](#)"
+**Good link text:** "Configure [Bluetooth LE advertising parameters](#)"
 
 **Confusing link text:** "Set up your [wireless configuration](#)"
 
@@ -270,4 +270,4 @@ See the [nRF Connect SDK documentation](#) for details.
 
 * "[Download the nRF Connect SDK](#)"
 * "See the [installation guide](#) for details"
-* "[BLE API reference](#)"
+* "[Bluetooth LE API reference](#)"

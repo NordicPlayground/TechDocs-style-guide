@@ -20,4 +20,4 @@ When semicolons separate multiple items within a sentence, convert to a bulleted
 
 | Complex semicolon structure | Clearer list format |
 |-----------------------------|---------------------|
-| The SDK supports: nRF52840, with BLE 5.2; nRF5340, with dual cores; and nRF9160, with LTE-M. | The SDK supports:</br>• nRF52840, with BLE 5.2</br>• nRF5340, with dual cores</br>• nRF9160, with LTE-M |
+| The SDK supports: nRF52840, with Bluetooth® Core 5.2; nRF5340, with dual cores; and nRF9160, with LTE-M. | The SDK supports:</br>• nRF52840, with Bluetooth® Core 5.2</br>• nRF5340, with dual cores</br>• nRF9160, with LTE-M |

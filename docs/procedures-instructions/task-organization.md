@@ -8,14 +8,14 @@ Organize procedural content so that readers can find the right procedure, unders
 
 Group procedures that belong to the same workflow together, in the order they are typically performed.
 
-**Example (BLE development workflow):**
+**Example (Bluetooth LE development workflow):**
 
 1. Create a new application
-2. Configure BLE settings
+2. Configure Bluetooth LE settings
 3. Implement GATT services
 4. Build the application
 5. Flash the firmware
-6. Test the BLE connection
+6. Test the Bluetooth LE connection
 
 ### By feature area
 
@@ -40,9 +40,9 @@ Arrange procedures from basic to advanced within each group.
 
 **Example:**
 
-* Basic: Configure a simple BLE beacon
-* Intermediate: Create a BLE peripheral with custom GATT services
-* Advanced: Implement BLE mesh with relay and proxy features
+* Basic: Configure a simple Bluetooth LE beacon
+* Intermediate: Create a Bluetooth LE peripheral with custom GATT services
+* Advanced: Implement Bluetooth Mesh with relay and proxy features
 
 ## Structuring a procedure topic
 
@@ -52,13 +52,13 @@ Start with an action verb. The title should clearly describe the outcome.
 
 **Good titles:**
 
-* "Configure BLE advertising parameters"
+* "Configure Bluetooth LE advertising parameters"
 * "Flash firmware using nrfjprog"
 * "Set up a Thread border router"
 
 **Avoid:**
 
-* "BLE advertising" (not actionable)
+* "Bluetooth LE advertising" (not actionable)
 * "Advertising parameter configuration procedure" (verbose)
 
 ### Introduction
@@ -67,7 +67,7 @@ Provide 1-3 sentences explaining what the procedure accomplishes and when to use
 
 **Example:**
 
-"Set the advertising interval, TX power, and advertising data to control how your device appears to nearby BLE scanners. Adjust these parameters to balance discoverability and power consumption."
+"Set the advertising interval, TX power, and advertising data to control how your device appears to nearby Bluetooth LE scanners. Adjust these parameters to balance discoverability and power consumption."
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ Describe what the reader should observe after completing the procedure. This let
 
 **Example:**
 
-"After flashing, the nRF52840 DK restarts and LED1 begins blinking at 1 Hz. Open a BLE scanner application on your phone to verify the device is advertising with the name you configured."
+"After flashing, the nRF52840 DK restarts and LED1 begins blinking at 1 Hz. Open a Bluetooth LE scanner application on your phone to verify the device is advertising with the name you configured."
 
 ### Troubleshooting
 
@@ -168,7 +168,7 @@ Before a procedure, link to or briefly summarize the concepts readers need to un
 
 **Example:**
 
-"BLE advertising controls how your device appears to scanners. For background on advertising modes and parameters, see [BLE advertising concepts](#).
+"Bluetooth LE advertising controls how your device appears to scanners. For background on advertising modes and parameters, see [Bluetooth LE advertising concepts](#).
 
 ## Configure advertising parameters
 
@@ -180,7 +180,7 @@ After a procedure, link to reference material for readers who want more detail.
 
 **Example:**
 
-"For the complete list of advertising configuration options, see the [BLE Kconfig reference](#)."
+"For the complete list of advertising configuration options, see the [Bluetooth LE Kconfig reference](#)."
 
 ## Maintaining procedure accuracy
 
