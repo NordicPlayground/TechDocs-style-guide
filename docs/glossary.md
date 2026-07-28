@@ -295,6 +295,7 @@ Terms in the list that appear in <span style="color:red">red</span> are prohibit
 | Angle of Arrival mode</br>angle of arrival |  |
 | <span style="color:red">Attribute Database, ATTDB (n.)</span> | Prohibited. </br> Use 'Attribute Table', or 'GATT Server Attribute Table'. |
 | Attribute Table (n., proper) | **Prohibited:** <span style="color:red">*Attribute Database, ATTDB, or Database*</span> |
+| Auracast® (n., trademark) | Bluetooth audio protocol. **Note:** Use trademark at first occurrence. Do not abbreviate. (Source: [Bluetooth brand guide, March 2025](https://www.bluetooth.com/marketing-branding/brand-best-practices-guidelines), page 21) |
 
 [Back to top](#glossary)
 
