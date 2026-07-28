@@ -100,7 +100,7 @@ Write concise, descriptive alt text that conveys the essential information or fu
 
 **Use:**
 
-* Alt text: "BLE connection state machine showing transitions between disconnected, advertising, and connected states"
+* Alt text: "Bluetooth LE connection state machine showing transitions between disconnected, advertising, and connected states"
 
 ### Alt text for complex graphics
 
@@ -115,12 +115,12 @@ Complex graphics like architecture diagrams, flowcharts, and detailed schematics
 
 ```html
 <img src="ble-advertising-flow.png"
-     alt="BLE advertising state flow diagram">
+     alt="Bluetooth LE advertising state flow diagram">
 ```
 
 **Surrounding text provides detail:**
 
-"Figure 1 shows the BLE advertising state flow. The device starts in the idle state. When `bt_le_adv_start()` is called, it transitions to the advertising state. From advertising, the device can either return to idle (when advertising stops) or transition to connected (when a central device connects). From the connected state, the device returns to idle when disconnected."
+"Figure 1 shows the Bluetooth LE advertising state flow. The device starts in the idle state. When `bt_le_adv_start()` is called, it transitions to the advertising state. From advertising, the device can either return to idle (when advertising stops) or transition to connected (when a central device connects). From the connected state, the device returns to idle when disconnected."
 
 **For architecture diagrams:**
 
@@ -271,7 +271,7 @@ Write with screen reader users in mind to improve accessibility.
 **Use:**
 
 * "[Download the nRF Connect SDK](#)"
-* "[Configure BLE advertising parameters](#)"
+* "[Configure Bluetooth LE advertising parameters](#)"
 * "[View nRF52840 specifications](#)"
 
 Screen readers often navigate by links, so users hear link text out of context. Make links meaningful on their own.
@@ -286,7 +286,7 @@ Screen readers often navigate by links, so users hear link text out of context. 
 
 **Use:**
 
-* "See Figure 1: BLE state diagram"
+* "See Figure 1: Bluetooth LE state diagram"
 * "Table 1 lists the supported peripherals"
 * "In the navigation menu, select Configuration"
 
@@ -294,7 +294,7 @@ Screen readers often navigate by links, so users hear link text out of context. 
 
 **Example:**
 
-"The following code example initializes BLE advertising with a 100 ms interval:"
+"The following code example initializes Bluetooth LE advertising with a 100 ms interval:"
 
 ```c
 struct bt_le_adv_param adv_param = {

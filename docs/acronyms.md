@@ -56,7 +56,7 @@ Lowercase all words in the spelled-out form of an acronym, except for proper nou
 **Examples:**
 
 * Peripheral Resource System (PRS)
-* Bluetooth® Low Energy (BLE)
+* Bluetooth® Low Energy (Bluetooth® LE)
 
 ## Use *a* or *an* based on pronunciation
 
@@ -65,7 +65,7 @@ Always base the choice of *a* or *an* on the pronunciation of the acronym. If th
 **Examples:**
 
 * an nRF52840 SoC
-* a BLE connection
+* a Bluetooth LE connection
 * an SDFW feature
 * an LTE-M network
 
@@ -95,7 +95,7 @@ Avoid possessive forms of acronyms to improve clarity. Rephrase sentences to avo
 **Examples:**
 
 * Instead of "the CPU’s efficiency," write "the efficiency of the CPU."
-* Instead of "the BLE’s specifications," write "the specifications of the BLE."
+* Instead of "the Bluetooth® LE’s specifications," write "the specifications of the Bluetooth® LE."
 * the nRF Connect SDK updates
 * the purpose of the SDFW documentation
 * the developer's guide
@@ -141,8 +141,8 @@ Readers navigate technical documentation non-linearly. Any page can be the reade
 
 **Example:**
 
-* Page 1 introduces "Bluetooth Low Energy (BLE)" and uses BLE throughout
-* Page 2, read independently, also introduces "Bluetooth Low Energy (BLE)" at first mention
+* Page 1 introduces "Bluetooth Low Energy (Bluetooth LE)" and uses Bluetooth LE throughout
+* Page 2, read independently, also introduces "Bluetooth Low Energy (Bluetooth LE)" at first mention
 * A reader jumping directly to Page 2 encounters no undefined acronyms
 
 Within a single page, do not redefine the same acronym multiple times. Define it once at first use, then use the acronym for the rest of the page.
@@ -231,7 +231,7 @@ Be careful with terms that look similar or sound alike.
 
 * **That** = restrictive clause (no comma)
 * **Which** = non-restrictive clause (with comma)
-* *Example*: "The device that supports BLE" vs. "The nRF52840, which supports BLE, ..."
+* *Example*: "The device that supports Bluetooth LE" vs. "The nRF52840, which supports Bluetooth LE, ..."
 
 **Ensure vs. Insure vs. Assure**
 

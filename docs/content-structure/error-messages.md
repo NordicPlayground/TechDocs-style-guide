@@ -15,7 +15,7 @@ Always reproduce error messages exactly as they appear on screen. Exact text all
 
 **Example:**
 
-The following error appears when the device cannot establish a BLE connection:
+The following error appears when the device cannot establish a Bluetooth LE connection:
 
 ```
 ERROR: bt_conn: Failed to establish connection (err -11)

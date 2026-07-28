@@ -10,7 +10,7 @@ A task is a high-level goal that a reader wants to accomplish. It may involve mu
 
 **Examples of tasks:**
 
-* Set up a BLE peripheral application
+* Set up a Bluetooth LE peripheral application
 * Deploy firmware over the air
 * Configure power management for a battery-operated device
 
@@ -23,7 +23,7 @@ A procedure is a self-contained set of steps that accomplishes a specific, well-
 **Examples of procedures:**
 
 * Install the nRF Connect SDK
-* Configure BLE advertising parameters
+* Configure Bluetooth LE advertising parameters
 * Flash the application to the development kit
 
 Each procedure has a clear start, a series of steps, and a verifiable result.
@@ -66,7 +66,7 @@ Create a task-level topic when the goal spans multiple procedures or requires th
 * Links to individual procedure topics (or procedures inline, if they are short)
 * Verification of the overall result
 
-**Example: "Setting up a BLE peripheral application"**
+**Example: "Setting up a Bluetooth LE peripheral application"**
 
 This task-level topic would introduce the goal, list prerequisites, and link to procedures for configuring the project, writing the application code, building, and flashing.
 
@@ -82,7 +82,7 @@ Create a procedure-level topic when the instructions lead to a single, specific 
 * Numbered steps
 * Expected result
 
-**Example: "Configure BLE advertising parameters"**
+**Example: "Configure Bluetooth LE advertising parameters"**
 
 ### When to use inline steps
 
@@ -165,15 +165,15 @@ Limit procedures to 10 steps. If a procedure exceeds 10 steps:
 
 Use noun phrases or "How to" phrases for task-level topics:
 
-* "BLE peripheral setup" (noun phrase)
-* "How to set up a BLE peripheral" (how-to phrase)
+* "Bluetooth LE peripheral setup" (noun phrase)
+* "How to set up a Bluetooth LE peripheral" (how-to phrase)
 
 ### Procedure titles
 
 Use imperative verb phrases or "To" phrases:
 
-* "Configure BLE advertising" (imperative)
-* "To configure BLE advertising" (to-phrase, useful in context)
+* "Configure Bluetooth LE advertising" (imperative)
+* "To configure Bluetooth LE advertising" (to-phrase, useful in context)
 
 ### Step text
 

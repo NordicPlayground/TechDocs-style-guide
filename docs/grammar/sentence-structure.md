@@ -12,7 +12,7 @@ Aim for an average sentence length of 15-20 words. Vary the length for rhythm, b
 
 **Better (two sentences, 15 and 14 words):**
 
-"Configure BLE advertising parameters in `prj.conf` before building your application. This ensures the device broadcasts with the correct settings."
+"Configure Bluetooth LE advertising parameters in `prj.conf` before building your application. This ensures the device broadcasts with the correct settings."
 
 ## One idea per sentence
 
@@ -20,11 +20,11 @@ Each sentence should express a single thought. If a sentence contains two indepe
 
 **Two ideas (split these):**
 
-"The nRF52840 supports BLE 5.3 and it has a 64 MHz Arm Cortex-M4 processor."
+"The nRF52840 supports Bluetooth® Core 5.3 and it has a 64 MHz Arm Cortex-M4 processor."
 
 **One idea per sentence:**
 
-"The nRF52840 supports BLE 5.3. It includes a 64 MHz Arm Cortex-M4 processor."
+"The nRF52840 supports Bluetooth® Core 5.3. It includes a 64 MHz Arm Cortex-M4 processor."
 
 ## Sentence patterns
 
@@ -70,13 +70,13 @@ Do not start sentences with "There is," "There are," "It is," or "It was." These
 
 **Weak:**
 
-* "There are three configuration options that control BLE advertising."
+* "There are three configuration options that control Bluetooth LE advertising."
 * "It is necessary to enable Bluetooth before building."
 * "There is a function that handles connection events."
 
 **Strong:**
 
-* "Three configuration options control BLE advertising."
+* "Three configuration options control Bluetooth LE advertising."
 * "Enable Bluetooth before building."
 * "The `on_connected()` function handles connection events."
 
@@ -175,11 +175,11 @@ Avoid stacking multiple subordinate clauses in a single sentence.
 
 **Too complex:**
 
-"When you build an application that uses the BLE subsystem, which requires the SoftDevice controller, that must be configured before the application starts, you need to set the correct memory regions."
+"When you build an application that uses the Bluetooth LE subsystem, which requires the SoftDevice controller, that must be configured before the application starts, you need to set the correct memory regions."
 
 **Simplified:**
 
-"BLE applications require the SoftDevice controller. Configure the controller before the application starts. Set the correct memory regions in the configuration."
+"Bluetooth LE applications require the SoftDevice controller. Configure the controller before the application starts. Set the correct memory regions in the configuration."
 
 ### Avoid nested parenthetical statements
 
@@ -203,7 +203,7 @@ Keep introductory phrases short. If the introduction exceeds 10 words, consider 
 
 **Better:**
 
-"To handle BLE connection events, register a callback function."
+"To handle Bluetooth LE connection events, register a callback function."
 
 ## Word order for clarity
 

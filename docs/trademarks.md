@@ -161,7 +161,7 @@ Before using a third-party trademark, review the owner's trademark usage guideli
 
 Use the exact form specified by the trademark owner:
 
-* Bluetooth® wireless technology (not "BLE", or "Bluetooth Smart" unless specifically appropriate)
+* Bluetooth® wireless technology (not "Bluetooth LE", or "Bluetooth Smart" unless specifically appropriate)
 * Arm® Cortex®-M4 processor (not "ARM Cortex M4" or "Cortex-M4 CPU")
 * Wi-Fi® technology (not "WiFi" or "Wifi")
 

@@ -77,14 +77,14 @@ Use this table to find simple verb alternatives:
 
 * "Set up the nRF Connect SDK environment before you start"
 * "Figure out which API to use for your application"
-* "Turn on the BLE peripheral to start advertising"
+* "Turn on the Bluetooth LE peripheral to start advertising"
 * "Look into the error logs to find the problem"
 
 **Use:**
 
 * "Configure the nRF Connect SDK environment before you start"
 * "Determine which API to use for your application"
-* "Enable the BLE peripheral to start advertising"
+* "Enable the Bluetooth LE peripheral to start advertising"
 * "Examine the error logs to identify the problem"
 
 ### When phrasal verbs are acceptable

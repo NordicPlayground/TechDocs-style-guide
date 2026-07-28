@@ -28,9 +28,9 @@ Use this kind of structure when your DITA workflow expects a figure element:
 
 ```xml
 <fig>
-  <title>Power consumption during BLE advertising</title>
+  <title>Power consumption during Bluetooth LE advertising</title>
   <image href="ble-advertising-power.svg">
-    <alt>Power consumption profile during a BLE advertising event</alt>
+    <alt>Power consumption profile during a Bluetooth LE advertising event</alt>
   </image>
 </fig>
 ```

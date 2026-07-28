@@ -125,7 +125,7 @@ Tell readers what happens if they ignore the admonition. This helps them assess 
 
 ```markdown
 !!! warning
-    Set `CONFIG_HEAP_MEM_POOL_SIZE` to at least 2048. A smaller heap causes runtime memory allocation failures that result in BLE connection drops.
+    Set `CONFIG_HEAP_MEM_POOL_SIZE` to at least 2048. A smaller heap causes runtime memory allocation failures that result in Bluetooth LE connection drops.
 ```
 
 ### Use the imperative mood

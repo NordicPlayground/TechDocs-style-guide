@@ -21,13 +21,13 @@ Organize content in the order the reader needs it, not in the order the product 
 
 **Product-focused (how it was built):**
 
-"The BLE stack initializes the Host Controller Interface, configures the Link Layer, sets up the Logical Link Control and Adaptation Protocol, and then enables the Generic Access Profile."
+"The Bluetooth LE stack initializes the Host Controller Interface, configures the Link Layer, sets up the Logical Link Control and Adaptation Protocol, and then enables the Generic Access Profile."
 
 **Reader-focused (how to use it):**
 
-"To start BLE on your device:
+"To start Bluetooth LE on your device:
 
-1. Enable BLE in `prj.conf` with `CONFIG_BT=y`.
+1. Enable Bluetooth LE in `prj.conf` with `CONFIG_BT=y`.
 2. Call `bt_enable()` in your application code.
 3. Register a callback for connection events."
 
@@ -37,15 +37,15 @@ Address the reader directly with "you." Second person is more engaging, clearer,
 
 **Second person (preferred):**
 
-"You can configure up to four simultaneous BLE connections."
+"You can configure up to four simultaneous Bluetooth LE connections."
 
 **Third person (distant):**
 
-"The developer can configure up to four simultaneous BLE connections."
+"The developer can configure up to four simultaneous Bluetooth LE connections."
 
 **First person plural (avoid):**
 
-"We can configure up to four simultaneous BLE connections."
+"We can configure up to four simultaneous Bluetooth LE connections."
 
 ### Imperative mood in procedures
 
@@ -69,7 +69,7 @@ Avoid describing features in terms of what the product does or what the developm
 
 **Reader-focused:**
 
-"Use the nRF Connect SDK BLE libraries to create GATT services, configure advertising, and manage connections."
+"Use the nRF Connect SDK Bluetooth LE libraries to create GATT services, configure advertising, and manage connections."
 
 **Product-focused:**
 

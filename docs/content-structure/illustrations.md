@@ -49,7 +49,7 @@ Use sequence diagrams to show interactions between components over time.
 
 **Best for:**
 
-* BLE connection establishment sequences
+* Bluetooth LE connection establishment sequences
 * API call sequences
 * Communication protocol exchanges
 * OTA firmware update procedures
@@ -102,7 +102,7 @@ Use schematic excerpts to show electrical connections relevant to the discussion
 Establish and maintain conventions across all illustrations:
 
 * Use the same shapes for the same types of components
-* Use consistent color coding (for example, blue for BLE, green for Thread)
+* Use consistent color coding (for example, blue for Bluetooth LE, green for Thread)
 * Apply the same line styles for the same types of relationships
 * Use a consistent font and text size
 
@@ -155,9 +155,9 @@ Place the descriptive introduction *before* the illustration and any supplementa
 
 **Example:**
 
-"Figure 2 shows the power consumption profile during a BLE advertising event.
+"Figure 2 shows the power consumption profile during a Bluetooth LE advertising event.
 
-*[Image: Power consumption during BLE advertising showing peaks at TX and RX events]*
+*[Image: Power consumption during Bluetooth LE advertising showing peaks at TX and RX events]*
 
 The initial peak corresponds to the radio ramp-up phase. The three subsequent peaks are the advertising transmissions on channels 37, 38, and 39."
 
@@ -171,7 +171,7 @@ Placing a diagram between two paragraphs with no reference in either paragraph.
 
 **Use:**
 
-"The following diagram shows the BLE connection state machine:" followed by the diagram.
+"The following diagram shows the Bluetooth LE connection state machine:" followed by the diagram.
 
 ### Provide captions
 
@@ -185,7 +185,7 @@ Use sentence-style capitalization for figure captions.
 
 **Strong caption:**
 
-"Figure 1: nRF52840 BLE peripheral application architecture showing the application layer, BLE stack, and hardware abstraction layer."
+"Figure 1: nRF52840 Bluetooth LE peripheral application architecture showing the application layer, Bluetooth LE stack, and hardware abstraction layer."
 
 ### Number illustrations consistently
 

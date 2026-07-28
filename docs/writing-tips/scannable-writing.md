@@ -48,7 +48,7 @@ Start each section or major paragraph with a clear topic sentence that tells rea
 
 **Example topic sentences:**
 
-* "Three configuration options control BLE advertising behavior."
+* "Three configuration options control Bluetooth LE advertising behavior."
 * "The build system requires west version 0.14 or later."
 * "Power management reduces current consumption during idle periods."
 
@@ -100,7 +100,7 @@ When information involves comparisons, sequences, or relationships, consider whe
 
 | Protocol | Range | Data Rate | Power |
 | -------- | ----- | --------- | ----- |
-| BLE | 100 m | 2 Mbps | Low |
+| Bluetooth LE | 100 m | 2 Mbps | Low |
 | Thread | 100 m | 250 kbps | Low |
 | Wi-Fi | 50 m | 600 Mbps | High |
 
@@ -120,7 +120,7 @@ Headings are the most-read content on any page. Make them descriptive and specif
 
 **Descriptive headings:**
 
-* "BLE advertising configuration overview"
+* "Bluetooth LE advertising configuration overview"
 * "GPIO pin assignment details"
 * "Power consumption reference"
 

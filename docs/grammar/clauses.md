@@ -22,7 +22,7 @@ A restrictive clause (also called an essential or defining clause) provides info
 
 (Restricts "devices" to only those supporting Bluetooth 5.3. Without the clause, the sentence would apply to all devices.)
 
-"The function **that initializes the BLE stack** must be called before advertising starts."
+"The function **that initializes the Bluetooth LE stack** must be called before advertising starts."
 
 (Identifies which specific function.)
 
@@ -46,7 +46,7 @@ A nonrestrictive clause (also called a nonessential or non-defining clause) adds
 
 (The configuration option is already identified by name. The clause provides supplementary detail.)
 
-"The SoftDevice Controller, **which is Nordic's BLE link layer implementation**, handles time-critical radio operations."
+"The SoftDevice Controller, **which is Nordic's Bluetooth LE link layer implementation**, handles time-critical radio operations."
 
 (The SoftDevice Controller is already a specific item. The clause defines it for readers who may not be familiar with it.)
 
@@ -67,11 +67,11 @@ If removing the clause makes the sentence vague or changes its meaning, the clau
 
 **Test example:**
 
-"The samples that use BLE are in the `bluetooth` folder."
+"The samples that use Bluetooth LE are in the `bluetooth` folder."
 
 Remove the clause: "The samples are in the `bluetooth` folder." — This changes the meaning (not *all* samples are in that folder). The clause is **restrictive**. Use "that," no commas. Correct as written.
 
-"The `bluetooth` folder, which contains all BLE samples, is in the SDK root."
+"The `bluetooth` folder, which contains all Bluetooth LE samples, is in the SDK root."
 
 Remove the clause: "The `bluetooth` folder is in the SDK root." — Still makes sense and identifies the same folder. The clause is **nonrestrictive**. Use "which" with commas. Correct as written.
 
@@ -105,11 +105,11 @@ Remove the clause: "The `bluetooth` folder is in the SDK root." — Still makes 
 
 **Incorrect:**
 
-"The nRF Connect SDK which is free to download includes BLE libraries."
+"The nRF Connect SDK which is free to download includes Bluetooth LE libraries."
 
 **Correct:**
 
-"The nRF Connect SDK, which is free to download, includes BLE libraries."
+"The nRF Connect SDK, which is free to download, includes Bluetooth LE libraries."
 
 ## Relative clauses with "who" and "whom"
 
@@ -117,7 +117,7 @@ For clauses referring to people, use "who" (subject) or "whom" (object).
 
 **Restrictive:**
 
-"Developers who work with BLE should review the advertising guide."
+"Developers who work with Bluetooth LE should review the advertising guide."
 
 (Identifies which developers.)
 

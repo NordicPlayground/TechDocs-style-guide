@@ -32,7 +32,7 @@ Concept topics explain what something is, why it matters, or how it works at a h
 
 **Example content:**
 
-"BLE advertising is the process by which a device broadcasts data packets to announce its presence and capabilities. Nearby devices can discover the advertising device by scanning for these packets.
+"Bluetooth LE advertising is the process by which a device broadcasts data packets to announce its presence and capabilities. Nearby devices can discover the advertising device by scanning for these packets.
 
 Advertising operates on three dedicated channels (37, 38, and 39) to minimize interference with data channels."
 
@@ -49,7 +49,7 @@ Task topics describe how to accomplish a specific goal. They contain step-by-ste
 5. Result or verification (what the user should see after completing the task)
 6. Cross-references to related tasks
 
-**Example title:** "Configure BLE advertising parameters"
+**Example title:** "Configure Bluetooth LE advertising parameters"
 
 ### Reference topics
 
@@ -86,7 +86,7 @@ Small, focused topics are easier to review, update, and test than long monolithi
 
 ### Flexible assembly
 
-Assemble topics into different collections for different audiences or products. The same set of BLE topics can appear in guides for nRF52840 and nRF5340, with device-specific topics swapped in as needed.
+Assemble topics into different collections for different audiences or products. The same set of Bluetooth LE topics can appear in guides for nRF52840 and nRF5340, with device-specific topics swapped in as needed.
 
 ### Translation efficiency
 
@@ -138,13 +138,13 @@ Topic titles serve as the primary navigation mechanism. Make them specific, desc
 
 **Concept topic titles** use noun phrases:
 
-* "BLE advertising modes"
+* "Bluetooth LE advertising modes"
 * "Thread network topology"
 * "Power management states"
 
 **Task topic titles** use verb phrases:
 
-* "Configure BLE advertising"
+* "Configure Bluetooth LE advertising"
 * "Flash firmware using nrfjprog"
 * "Debug with the nRF Connect for VS Code extension"
 
