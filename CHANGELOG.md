@@ -6,6 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Main Branch]
 
+## [Release 1.0.1] - 2026-07-30
+
+### Added
+- Added DITA-specific guidelines and integrated them into related style topics.
+- Added Auracast to the glossary.
+
+### Changed
+- Updated style guidance across grammar, content structure, procedures, punctuation, planning, and writing tips based on editorial feedback.
+- Standardized Bluetooth terminology throughout the guide.
+- Updated repository references and site configuration for the `techdocs-style-guide` repository.
+- Updated ignored development artifacts.
+
+### Fixed
+- Fixed an encoding issue in the beginner-friendly MCP server.
+
+## [Release 1.0.0] - 2026-03-12
+
 ### Added
 
 #### Capitalization (`capitalization.md`)
