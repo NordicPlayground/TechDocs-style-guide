@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Added DITA-specific guidelines and integrated them into related style topics.
 - Added Auracast to the glossary.
+- Added brief release and deployment guidelines for the github pages site.
 
 ### Changed
 - Updated style guidance across grammar, content structure, procedures, punctuation, planning, and writing tips based on editorial feedback.
